@@ -27,7 +27,21 @@ def run_discovery_cycle(*, root: Path, state_dir: Path, now: datetime | None = N
     if not live_policy or not live_policy.get("live_fetch_allowed"):
         raise RuntimeError("GitHub source policy is not live-enabled")
     if fetcher is None:
-        fetcher = SafeHttpFetcher(HttpTransportPolicy(allowed_hosts=["api.github.com"], timeout_seconds=15, max_response_bytes=2_000_000, max_attempts=2, backoff_seconds=0.25))
+        token = (os.environ.get("AVF_GITHUB_TOKEN") or "").strip()
+        auth_headers = {
+            "Authorization": f"Bearer {token}",
+            "X-GitHub-Api-Version": "2022-11-28",
+        } if token else {}
+        fetcher = SafeHttpFetcher(
+            HttpTransportPolicy(
+                allowed_hosts=["api.github.com"],
+                timeout_seconds=15,
+                max_response_bytes=2_000_000,
+                max_attempts=2,
+                backoff_seconds=0.25,
+            ),
+            extra_headers=auth_headers,
+        )
     runner = PersistentGitHubIssueDiscoveryRunner(store)
     changed_rows = []
     executed = 0
