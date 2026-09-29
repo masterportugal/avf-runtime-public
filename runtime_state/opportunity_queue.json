@@ -17,6 +17,8 @@
         "AI (AGENTS.md, skills, etc.)"
       ],
       "required_out_of_pocket_usd": 0.0,
+      "research_disposition": null,
+      "research_rationale": null,
       "status": "NEEDS_MORE_EVIDENCE"
     },
     {
@@ -38,7 +40,9 @@
         "Layout-index cache ignores `intellijPlatformIdesCache` and contradicts its own docs, so CI cannot keep a warm index"
       ],
       "required_out_of_pocket_usd": 0.0,
-      "status": "READY_FOR_RESEARCH"
+      "research_disposition": "UPSTREAM_OR_PROCESS_KILL",
+      "research_rationale": "Observed evidence is an upstream cache bug already closed plus a first-release publishing question covered by official JetBrains publishing workflow; insufficient durable paid-product gap.",
+      "status": "SUPPRESSED_RESEARCH_DECISION"
     },
     {
       "candidate_key": "jetbrains-extension_compatibility",
@@ -65,7 +69,9 @@
         "verifyPlugin can fail on NOT_DYNAMIC errors but the report doesn't indicate what the issue is"
       ],
       "required_out_of_pocket_usd": 0.0,
-      "status": "READY_FOR_RESEARCH"
+      "research_disposition": "BUILT_IN_KILL",
+      "research_rationale": "JetBrains Plugin Verifier is the official compatibility gate and is integrated into Gradle, CI and Marketplace review; a generic replacement would duplicate official free tooling.",
+      "status": "SUPPRESSED_RESEARCH_DECISION"
     },
     {
       "candidate_key": "jetbrains-other_friction",
@@ -103,7 +109,9 @@
         "Task 'setupDependencies' not found in root project once migrated to 2.19.0"
       ],
       "required_out_of_pocket_usd": 0.0,
-      "status": "READY_FOR_RESEARCH"
+      "research_disposition": "NEEDS_MORE_PROBLEM_EVIDENCE",
+      "research_rationale": "The current group mixes unrelated IDE version resolution, test framework, task migration and download issues rather than one coherent sellable workflow.",
+      "status": "SUPPRESSED_RESEARCH_DECISION"
     },
     {
       "candidate_key": "woocommerce-automation_workflow",
@@ -121,6 +129,8 @@
         "Variation bulk action races with unsaved variation save and can silently overwrite bulk changes"
       ],
       "required_out_of_pocket_usd": 0.0,
+      "research_disposition": null,
+      "research_rationale": null,
       "status": "NEEDS_MORE_EVIDENCE"
     },
     {
@@ -139,6 +149,8 @@
         "[AI Regression Review][trunk] The public `woocommerce_csv_exporter_fopen_mode` filter default was changed from `'a+'` to `'a'`, altering the value every out-of-tree callb"
       ],
       "required_out_of_pocket_usd": 0.0,
+      "research_disposition": null,
+      "research_rationale": null,
       "status": "NEEDS_MORE_EVIDENCE"
     },
     {
@@ -169,7 +181,9 @@
         "[AI Regression Review][trunk] Dedupe guard infers registration state from hook ordering (doing_action('rest_api_init') && did_action('admin_init')) rather than a direct i"
       ],
       "required_out_of_pocket_usd": 0.0,
-      "status": "READY_FOR_RESEARCH"
+      "research_disposition": "TECHNICAL_PATH_KILL",
+      "research_rationale": "Observed requests require missing core hooks, filters or events; a third-party extension cannot reliably create absent core extension points.",
+      "status": "SUPPRESSED_RESEARCH_DECISION"
     },
     {
       "candidate_key": "woocommerce-extension_compatibility",
@@ -201,7 +215,9 @@
         "Make product editor and review reply E2E selectors tolerate extensions"
       ],
       "required_out_of_pocket_usd": 0.0,
-      "status": "READY_FOR_RESEARCH"
+      "research_disposition": "BUILT_IN_KILL",
+      "research_rationale": "Woo QIT and official platform compatibility tooling already cover extension compatibility; generic checker overlaps built-in/official tooling.",
+      "status": "SUPPRESSED_RESEARCH_DECISION"
     },
     {
       "candidate_key": "woocommerce-other_friction",
@@ -233,7 +249,9 @@
         "SPIKE: map out order/product status counters usage in WooCommerce core"
       ],
       "required_out_of_pocket_usd": 0.0,
-      "status": "READY_FOR_RESEARCH"
+      "research_disposition": "NEEDS_MORE_PROBLEM_EVIDENCE",
+      "research_rationale": "Current signals are heterogeneous and do not form a coherent, repeatable product problem.",
+      "status": "SUPPRESSED_RESEARCH_DECISION"
     }
   ]
 }
