@@ -381,23 +381,32 @@
     },
     {
       "candidate_key": "woocommerce-data_reporting_export",
-      "evidence_count": 1,
+      "evidence_count": 4,
       "evidence_signal_keys": [
-        "woocommerce/woocommerce#67472"
+        "woocommerce/woocommerce#67472",
+        "woocommerce/woocommerce#69209",
+        "woocommerce/woocommerce#69210",
+        "woocommerce/woocommerce#69212"
       ],
       "evidence_urls": [
-        "https://github.com/woocommerce/woocommerce/issues/67472"
+        "https://github.com/woocommerce/woocommerce/issues/67472",
+        "https://github.com/woocommerce/woocommerce/issues/69209",
+        "https://github.com/woocommerce/woocommerce/issues/69210",
+        "https://github.com/woocommerce/woocommerce/issues/69212"
       ],
       "friction_family": "data_reporting_export",
       "owner_customer_recruitment_required": false,
       "platform": "WooCommerce",
       "representative_titles": [
-        "[AI Regression Review][trunk] The public `woocommerce_csv_exporter_fopen_mode` filter default was changed from `'a+'` to `'a'`, altering the value every out-of-tree callb"
+        "[AI Regression Review][trunk] The public `woocommerce_csv_exporter_fopen_mode` filter default was changed from `'a+'` to `'a'`, altering the value every out-of-tree callb",
+        "Point core links to legacy Reports at Analytics where an equivalent exists",
+        "Hide the legacy Reports menu on new stores by default",
+        "Prepare legacy Reports for retirement (deprecation, then extraction)"
       ],
       "required_out_of_pocket_usd": 0.0,
       "research_disposition": null,
       "research_rationale": null,
-      "status": "NEEDS_MORE_EVIDENCE"
+      "status": "READY_FOR_RESEARCH"
     },
     {
       "candidate_key": "woocommerce-extensibility_gap",
