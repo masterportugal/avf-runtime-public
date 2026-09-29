@@ -82,8 +82,10 @@ class SafeHttpFetcher:
         resolver: Callable[[str, int], Iterable[str]] | None = None,
         open_func: Callable[[Request, float], object] | None = None,
         sleep_func: Callable[[float], None] = time.sleep,
+        extra_headers: dict[str, str] | None = None,
     ) -> None:
         self.policy = policy
+        self._extra_headers = dict(extra_headers or {})
         self._resolver = resolver or self._default_resolver
         self._sleep = sleep_func
         if open_func is None:
