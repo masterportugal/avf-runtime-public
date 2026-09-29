@@ -2,6 +2,7 @@
   {
     "api_url": "https://api.github.com/search/issues?q=repo%3Awoocommerce%2Fwoocommerce+is%3Aissue+created%3A%3E%3D2026-08-01+extension+compatibility&per_page=25&sort=updated&order=desc",
     "cadence_hours": 24,
+    "cadence_minutes": 10,
     "enabled": true,
     "max_results": 25,
     "platform": "WooCommerce",
@@ -13,6 +14,7 @@
   {
     "api_url": "https://api.github.com/search/issues?q=repo%3Awoocommerce%2Fwoocommerce+is%3Aissue+created%3A%3E%3D2026-08-01+block+extensibility&per_page=25&sort=updated&order=desc",
     "cadence_hours": 24,
+    "cadence_minutes": 10,
     "enabled": true,
     "max_results": 25,
     "platform": "WooCommerce",
@@ -24,6 +26,7 @@
   {
     "api_url": "https://api.github.com/search/issues?q=repo%3AJetBrains%2Fintellij-platform-plugin-template+is%3Aissue+created%3A%3E%3D2026-08-01&per_page=25&sort=updated&order=desc",
     "cadence_hours": 24,
+    "cadence_minutes": 10,
     "enabled": true,
     "max_results": 25,
     "platform": "JetBrains",
@@ -35,6 +38,7 @@
   {
     "api_url": "https://api.github.com/search/issues?q=repo%3Aatlassian-labs%2FFSRT+is%3Aissue+created%3A%3E%3D2026-08-01&per_page=25&sort=updated&order=desc",
     "cadence_hours": 24,
+    "cadence_minutes": 10,
     "enabled": true,
     "max_results": 25,
     "platform": "Atlassian",
