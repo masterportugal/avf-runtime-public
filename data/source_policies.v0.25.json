@@ -421,5 +421,18 @@
     "reviewed_at": "2026-09-29",
     "robots_status": "NOT_APPLICABLE_API_ENDPOINT",
     "terms_status": "VERIFIED_OFFICIAL_MARKETPLACE_REST_API_2026-09-29"
+  },
+  {
+    "auth_mode": "PUBLIC_GUEST_READ_ONLY",
+    "host_patterns": [
+      "youtrack.jetbrains.com"
+    ],
+    "live_fetch_allowed": true,
+    "notes": "Official YouTrack REST API. Anonymous guest read-only access was live-probed successfully for public plugin-welcome issues; no scraping or credentials are used.",
+    "policy_id": "host-youtrack-jetbrains-com",
+    "rate_limit_policy": "DAILY_PLUGIN_WELCOME_QUERY_TOP_100_ONLY",
+    "reviewed_at": "2026-09-29",
+    "robots_status": "NOT_APPLICABLE_API_ENDPOINT",
+    "terms_status": "VERIFIED_OFFICIAL_YOUTRACK_REST_API_GUEST_ACCESS_2026-09-29"
   }
 ]
