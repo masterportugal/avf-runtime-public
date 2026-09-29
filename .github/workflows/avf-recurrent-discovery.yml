@@ -38,6 +38,8 @@ jobs:
       - name: Install minimal AVF runtime
         run: python -m pip install .
       - name: Run recurrent discovery
+        env:
+          AVF_GITHUB_TOKEN: ${{ github.token }}
         run: python -m avf.runtime_job --root . --state-dir runtime_state
       - name: Persist durable state without overwriting newer work
         shell: bash
