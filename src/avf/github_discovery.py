@@ -17,6 +17,11 @@ class GitHubIssueDiscoverySpec(BaseModel):
     query: str
     platform: str
     cadence_hours: int = Field(default=24, gt=0)
+    cadence_minutes: int | None = Field(default=None, gt=0)
+
+    @property
+    def effective_cadence_minutes(self) -> int:
+        return self.cadence_minutes if self.cadence_minutes is not None else self.cadence_hours * 60
     max_results: int = Field(default=25, ge=1, le=100)
     enabled: bool = True
     source_policy_id: str = "host-api-github-com"
@@ -81,11 +86,7 @@ class GitHubDiscoveryRun:
 
 
 class GitHubIssueDiscoveryEngine:
-    """Normalize GitHub REST issue-search payloads into reproducible, deduplicated signals.
-
-    Network access is intentionally outside this engine. The caller must execute the URL
-    through the certified GitHub REST source policy and pass the JSON payload here.
-    """
+    """Normalize GitHub REST issue-search payloads into reproducible, deduplicated signals."""
 
     def normalize(self, spec: GitHubIssueDiscoverySpec, payload: dict) -> list[GitHubIssueSignal]:
         out: list[GitHubIssueSignal] = []
@@ -108,146 +109,77 @@ class GitHubIssueDiscoveryEngine:
                     body_excerpt=body[:1200],
                 )
             )
-        # GitHub search should not duplicate issues, but enforce it anyway.
         by_key: dict[str, GitHubIssueSignal] = {}
         for signal in out:
             by_key[signal.signal_key] = signal
         return sorted(by_key.values(), key=lambda s: s.signal_key)
 
-    def run(
-        self,
-        spec: GitHubIssueDiscoverySpec,
-        payload: dict,
-        previous: GitHubDiscoveryState | None = None,
-        *,
-        run_at: datetime | None = None,
-    ) -> GitHubDiscoveryRun:
+    def run(self, spec: GitHubIssueDiscoverySpec, payload: dict, previous: GitHubDiscoveryState | None = None, *, run_at: datetime | None = None) -> GitHubDiscoveryRun:
         observed = self.normalize(spec, payload)
         previous = previous or GitHubDiscoveryState(spec_id=spec.spec_id)
         if previous.spec_id != spec.spec_id:
             raise ValueError("state/spec mismatch")
-        new_or_changed = tuple(
-            s for s in observed if previous.last_fingerprints.get(s.signal_key) != s.fingerprint
-        )
+        new_or_changed = tuple(s for s in observed if previous.last_fingerprints.get(s.signal_key) != s.fingerprint)
         fingerprints = dict(previous.last_fingerprints)
         fingerprints.update({s.signal_key: s.fingerprint for s in observed})
         seen = sorted(set(previous.seen_signal_keys) | {s.signal_key for s in observed})
         ts = (run_at or datetime.now(timezone.utc)).isoformat()
-        state = GitHubDiscoveryState(
-            spec_id=spec.spec_id,
-            last_run_at=ts,
-            seen_signal_keys=seen,
-            last_fingerprints=fingerprints,
-        )
+        state = GitHubDiscoveryState(spec_id=spec.spec_id,last_run_at=ts,seen_signal_keys=seen,last_fingerprints=fingerprints)
         return GitHubDiscoveryRun(spec.spec_id, ts, tuple(observed), new_or_changed, state)
 
 class GitHubDiscoveryStateStore:
-    """Crash-safe JSON state store for recurrent GitHub discovery.
-
-    The store is intentionally independent from the packaged data snapshots so schedulers can
-    point it at durable storage outside a release directory. Writes are atomic on the same
-    filesystem (temp file + os.replace). Malformed state fails closed instead of silently
-    resetting discovery history.
-    """
-
     FORMAT_VERSION = 1
-
     def __init__(self, path: str | Path):
-        from pathlib import Path as _Path
-        self.path = _Path(path)
-
+        self.path = Path(path)
     def load_all(self) -> dict[str, GitHubDiscoveryState]:
-        if not self.path.exists():
-            return {}
-        try:
-            raw = json.loads(self.path.read_text(encoding="utf-8"))
-        except (OSError, json.JSONDecodeError) as exc:
-            raise ValueError(f"invalid persistent GitHub discovery state: {exc}") from exc
-        if raw.get("format_version") != self.FORMAT_VERSION:
-            raise ValueError("unsupported persistent GitHub discovery state format")
-        rows = raw.get("states")
-        if not isinstance(rows, list):
-            raise ValueError("persistent GitHub discovery state must contain a states list")
-        out: dict[str, GitHubDiscoveryState] = {}
+        if not self.path.exists(): return {}
+        try: raw=json.loads(self.path.read_text(encoding="utf-8"))
+        except (OSError,json.JSONDecodeError) as exc: raise ValueError(f"invalid persistent GitHub discovery state: {exc}") from exc
+        if raw.get("format_version") != self.FORMAT_VERSION: raise ValueError("unsupported persistent GitHub discovery state format")
+        rows=raw.get("states")
+        if not isinstance(rows,list): raise ValueError("persistent GitHub discovery state must contain a states list")
+        out={}
         for row in rows:
-            state = GitHubDiscoveryState.model_validate(row)
-            if state.spec_id in out:
-                raise ValueError(f"duplicate persistent GitHub discovery state: {state.spec_id}")
-            out[state.spec_id] = state
+            state=GitHubDiscoveryState.model_validate(row)
+            if state.spec_id in out: raise ValueError(f"duplicate persistent GitHub discovery state: {state.spec_id}")
+            out[state.spec_id]=state
         return out
-
-    def get(self, spec_id: str) -> GitHubDiscoveryState | None:
-        return self.load_all().get(spec_id)
-
+    def get(self, spec_id: str) -> GitHubDiscoveryState | None: return self.load_all().get(spec_id)
     def save_all(self, states: dict[str, GitHubDiscoveryState]) -> None:
-        import os
         import tempfile
-
         self.path.parent.mkdir(parents=True, exist_ok=True)
-        payload = {
-            "format_version": self.FORMAT_VERSION,
-            "states": [states[k].model_dump(mode="json") for k in sorted(states)],
-        }
-        text = json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True) + "\n"
-        fd, tmp_name = tempfile.mkstemp(prefix=f".{self.path.name}.", suffix=".tmp", dir=self.path.parent)
+        payload={"format_version":self.FORMAT_VERSION,"states":[states[k].model_dump(mode="json") for k in sorted(states)]}
+        text=json.dumps(payload,ensure_ascii=False,indent=2,sort_keys=True)+"\n"
+        fd,tmp_name=tempfile.mkstemp(prefix=f".{self.path.name}.",suffix=".tmp",dir=self.path.parent)
         try:
-            with os.fdopen(fd, "w", encoding="utf-8") as fh:
-                fh.write(text)
-                fh.flush()
-                os.fsync(fh.fileno())
-            os.replace(tmp_name, self.path)
+            with os.fdopen(fd,"w",encoding="utf-8") as fh:
+                fh.write(text); fh.flush(); os.fsync(fh.fileno())
+            os.replace(tmp_name,self.path)
         except Exception:
-            try:
-                os.unlink(tmp_name)
-            except FileNotFoundError:
-                pass
+            try: os.unlink(tmp_name)
+            except FileNotFoundError: pass
             raise
-
-    def put(self, state: GitHubDiscoveryState) -> None:
-        states = self.load_all()
-        states[state.spec_id] = state
-        self.save_all(states)
-
+    def put(self,state:GitHubDiscoveryState)->None:
+        states=self.load_all(); states[state.spec_id]=state; self.save_all(states)
 
 class PersistentGitHubIssueDiscoveryRunner:
-    """Run the pure discovery engine against durable state and persist only successful runs."""
-
     def __init__(self, store: GitHubDiscoveryStateStore, engine: GitHubIssueDiscoveryEngine | None = None):
-        self.store = store
-        self.engine = engine or GitHubIssueDiscoveryEngine()
-
-    def run(self, spec: GitHubIssueDiscoverySpec, payload: dict, *, run_at: datetime | None = None) -> GitHubDiscoveryRun:
-        previous = self.store.get(spec.spec_id)
-        result = self.engine.run(spec, payload, previous, run_at=run_at)
-        self.store.put(result.state)
-        return result
-
+        self.store=store; self.engine=engine or GitHubIssueDiscoveryEngine()
+    def run(self,spec:GitHubIssueDiscoverySpec,payload:dict,*,run_at:datetime|None=None)->GitHubDiscoveryRun:
+        previous=self.store.get(spec.spec_id); result=self.engine.run(spec,payload,previous,run_at=run_at); self.store.put(result.state); return result
 
 @dataclass(frozen=True)
 class GitHubDiscoveryRuntimeConfig:
-    """Resolve recurrent discovery state to an explicit durable runtime path.
-
-    Release-packaged data files are snapshots, not scheduler state. The runtime must
-    provide either AVF_GITHUB_DISCOVERY_STATE_PATH or AVF_RUNTIME_DATA_DIR. Relative
-    paths are rejected so a process restart cannot silently switch working directories.
-    """
-
     state_path: Path
-
     @classmethod
-    def from_env(cls, env: dict[str, str] | None = None) -> "GitHubDiscoveryRuntimeConfig":
-        env = os.environ if env is None else env
-        direct = (env.get("AVF_GITHUB_DISCOVERY_STATE_PATH") or "").strip()
-        runtime_dir = (env.get("AVF_RUNTIME_DATA_DIR") or "").strip()
-        if direct:
-            path = Path(direct).expanduser()
-        elif runtime_dir:
-            path = Path(runtime_dir).expanduser() / "github_discovery_state.json"
-        else:
-            raise ValueError("durable GitHub discovery state path is not configured")
-        if not path.is_absolute():
-            raise ValueError("durable GitHub discovery state path must be absolute")
+    def from_env(cls, env: dict[str,str]|None=None)->"GitHubDiscoveryRuntimeConfig":
+        env=os.environ if env is None else env
+        direct=(env.get("AVF_GITHUB_DISCOVERY_STATE_PATH") or "").strip()
+        runtime_dir=(env.get("AVF_RUNTIME_DATA_DIR") or "").strip()
+        if direct: path=Path(direct).expanduser()
+        elif runtime_dir: path=Path(runtime_dir).expanduser()/"github_discovery_state.json"
+        else: raise ValueError("durable GitHub discovery state path is not configured")
+        if not path.is_absolute(): raise ValueError("durable GitHub discovery state path must be absolute")
         return cls(state_path=path)
-
-    def build_runner(self) -> "PersistentGitHubIssueDiscoveryRunner":
+    def build_runner(self)->PersistentGitHubIssueDiscoveryRunner:
         return PersistentGitHubIssueDiscoveryRunner(GitHubDiscoveryStateStore(self.state_path))
