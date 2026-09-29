@@ -2,7 +2,7 @@
   {
     "api_url": "https://api.github.com/search/issues?q=repo%3Awoocommerce%2Fwoocommerce+is%3Aissue+created%3A%3E%3D2026-08-01+extension+compatibility&per_page=25&sort=updated&order=desc",
     "cadence_hours": 24,
-    "cadence_minutes": 10,
+    "cadence_minutes": 5,
     "enabled": true,
     "max_results": 25,
     "platform": "WooCommerce",
@@ -14,7 +14,7 @@
   {
     "api_url": "https://api.github.com/search/issues?q=repo%3Awoocommerce%2Fwoocommerce+is%3Aissue+created%3A%3E%3D2026-08-01+block+extensibility&per_page=25&sort=updated&order=desc",
     "cadence_hours": 24,
-    "cadence_minutes": 10,
+    "cadence_minutes": 5,
     "enabled": true,
     "max_results": 25,
     "platform": "WooCommerce",
@@ -26,7 +26,7 @@
   {
     "api_url": "https://api.github.com/search/issues?q=repo%3AJetBrains%2Fintellij-platform-plugin-template+is%3Aissue+created%3A%3E%3D2026-08-01&per_page=25&sort=updated&order=desc",
     "cadence_hours": 24,
-    "cadence_minutes": 10,
+    "cadence_minutes": 5,
     "enabled": true,
     "max_results": 25,
     "platform": "JetBrains",
@@ -38,7 +38,7 @@
   {
     "api_url": "https://api.github.com/search/issues?q=repo%3Aatlassian-labs%2FFSRT+is%3Aissue+created%3A%3E%3D2026-08-01&per_page=25&sort=updated&order=desc",
     "cadence_hours": 24,
-    "cadence_minutes": 10,
+    "cadence_minutes": 5,
     "enabled": true,
     "max_results": 25,
     "platform": "Atlassian",
@@ -46,5 +46,27 @@
     "repository": "atlassian-labs/FSRT",
     "source_policy_id": "host-api-github-com",
     "spec_id": "atlassian-fsrt-friction-v1"
+  },
+  {
+    "spec_id": "jetbrains-gradle-plugin-friction-v1",
+    "repository": "JetBrains/intellij-platform-gradle-plugin",
+    "query": "created:>=2026-08-01",
+    "platform": "JetBrains",
+    "cadence_hours": 24,
+    "cadence_minutes": 5,
+    "max_results": 25,
+    "enabled": true,
+    "source_policy_id": "host-api-github-com"
+  },
+  {
+    "spec_id": "jetbrains-plugin-verifier-friction-v1",
+    "repository": "JetBrains/intellij-plugin-verifier",
+    "query": "created:>=2026-08-01",
+    "platform": "JetBrains",
+    "cadence_hours": 24,
+    "cadence_minutes": 5,
+    "max_results": 25,
+    "enabled": true,
+    "source_policy_id": "host-api-github-com"
   }
 ]
