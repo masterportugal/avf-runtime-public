@@ -63,7 +63,7 @@ class DeterministicOpportunityPromoter:
         groups: dict[tuple[str, str], list[dict]] = defaultdict(list)
         for row in rows:
             platform = str(row.get("platform") or "Unknown")
-            family = self.classify(str(row.get("title") or ""))
+            family = str(row.get("friction_family") or "").strip() or self.classify(str(row.get("title") or ""))
             groups[(platform, family)].append(row)
         out = []
         for (platform, family), group in sorted(groups.items()):
