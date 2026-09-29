@@ -208,14 +208,14 @@
     "terms_status": "REVIEW_REQUIRED_BEFORE_RECURRING_LIVE_FETCH"
   },
   {
-    "auth_mode": "PUBLIC_READ_ONLY_UNAUTHENTICATED",
+    "auth_mode": "GITHUB_ACTIONS_EPHEMERAL_GITHUB_TOKEN",
     "host_patterns": [
       "api.github.com"
     ],
     "live_fetch_allowed": true,
-    "notes": "GitHub API ToS and REST rate limits reviewed. Public read-only metadata only; no personal-data resale/spam; prefer webhooks/conditional requests and minimal polling.",
+    "notes": "GitHub Actions runtime uses only the ephemeral built-in GITHUB_TOKEN; token is never persisted. Public read-only search requests remain serial and fail closed.",
     "policy_id": "host-api-github-com",
-    "rate_limit_policy": "MAX_60_REQUESTS_PER_HOUR_UNAUTHENTICATED; SERIAL; CONDITIONAL_WHEN_POSSIBLE; HONOR_RETRY_AFTER_AND_X_RATELIMIT_RESET",
+    "rate_limit_policy": "GITHUB_TOKEN_PRIMARY_1000_REQUESTS_PER_HOUR_PER_REPOSITORY; SERIAL; HONOR_403_429; SEARCH_CUSTOM_LIMITS_APPLY",
     "reviewed_at": "2026-09-18",
     "robots_status": "NOT_APPLICABLE_API_ENDPOINT",
     "terms_status": "VERIFIED_GITHUB_API_TERMS_2026-09-18"
