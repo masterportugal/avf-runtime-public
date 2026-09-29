@@ -107,12 +107,13 @@
     },
     {
       "candidate_key": "jetbrains-extension_compatibility",
-      "evidence_count": 14,
+      "evidence_count": 15,
       "evidence_signal_keys": [
         "JetBrains/intellij-platform-gradle-plugin#2244",
         "JetBrains/intellij-platform-gradle-plugin#2250",
         "JetBrains/intellij-platform-gradle-plugin#2254",
         "JetBrains/intellij-platform-gradle-plugin#2255",
+        "JetBrains/intellij-platform-gradle-plugin#2256",
         "youtrack:IDEA-15540",
         "youtrack:IDEA-199681",
         "youtrack:IDEA-312383",
@@ -129,6 +130,7 @@
         "https://github.com/JetBrains/intellij-platform-gradle-plugin/issues/2250",
         "https://github.com/JetBrains/intellij-platform-gradle-plugin/issues/2254",
         "https://github.com/JetBrains/intellij-platform-gradle-plugin/issues/2255",
+        "https://github.com/JetBrains/intellij-platform-gradle-plugin/issues/2256",
         "https://youtrack.jetbrains.com/issue/IDEA-15540",
         "https://youtrack.jetbrains.com/issue/IDEA-199681",
         "https://youtrack.jetbrains.com/issue/IDEA-312383",
@@ -157,7 +159,7 @@
     },
     {
       "candidate_key": "jetbrains-other_friction",
-      "evidence_count": 89,
+      "evidence_count": 90,
       "evidence_signal_keys": [
         "JetBrains/intellij-platform-gradle-plugin#2210",
         "JetBrains/intellij-platform-gradle-plugin#2218",
@@ -168,6 +170,7 @@
         "JetBrains/intellij-platform-gradle-plugin#2249",
         "JetBrains/intellij-platform-gradle-plugin#2251",
         "JetBrains/intellij-platform-gradle-plugin#2252",
+        "JetBrains/intellij-platform-gradle-plugin#2257",
         "youtrack:CPP-49349",
         "youtrack:DBE-16186",
         "youtrack:GO-12084",
@@ -259,6 +262,7 @@
         "https://github.com/JetBrains/intellij-platform-gradle-plugin/issues/2249",
         "https://github.com/JetBrains/intellij-platform-gradle-plugin/issues/2251",
         "https://github.com/JetBrains/intellij-platform-gradle-plugin/issues/2252",
+        "https://github.com/JetBrains/intellij-platform-gradle-plugin/issues/2257",
         "https://youtrack.jetbrains.com/issue/CPP-49349",
         "https://youtrack.jetbrains.com/issue/DBE-16186",
         "https://youtrack.jetbrains.com/issue/GO-12084",
