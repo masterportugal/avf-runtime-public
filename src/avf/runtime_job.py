@@ -14,13 +14,20 @@ from .github_discovery import (
 from .http_transport import HttpTransportPolicy, SafeHttpFetcher
 from .scheduler import RecurrentDiscoveryScheduler
 from .opportunity_promotion import DeterministicOpportunityPromoter
+from .atlassian_marketplace import AtlassianMarketplaceZeroSearchCollector, append_atlassian_signals
+from .marketplace_gap_queue import MarketplaceGapQueueBuilder
+from .jetbrains_plugin_ideas import (
+    JetBrainsPluginIdeasCollector,
+    append_jetbrains_plugin_idea_signals,
+    JetBrainsPluginIdeaQueueBuilder,
+)
 
 
 def _load_json(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def run_discovery_cycle(*, root: Path, state_dir: Path, now: datetime | None = None, fetcher=None) -> dict:
+def run_discovery_cycle(*, root: Path, state_dir: Path, now: datetime | None = None, fetcher=None, youtrack_fetcher=None) -> dict:
     now = now or datetime.now(timezone.utc)
     specs_raw = _load_json(root / "data/github_discovery_specs.v0.25.json")
     policies = _load_json(root / "data/source_policies.v0.25.json")
@@ -84,7 +91,29 @@ def run_discovery_cycle(*, root: Path, state_dir: Path, now: datetime | None = N
             for row in new_rows:
                 fh.write(json.dumps(row, ensure_ascii=False, sort_keys=True) + "\n")
 
-    promoted = DeterministicOpportunityPromoter().write_queue(signal_path, state_dir / "opportunity_queue.json", decisions_path=root / "data/research_decisions.v0.63.json") if signal_path.exists() else []
+    atlassian_result = AtlassianMarketplaceZeroSearchCollector().collect(
+        state_path=state_dir / "atlassian_zero_search_state.json", now=now
+    )
+    atlassian_new = append_atlassian_signals(signal_path, atlassian_result, observed_at=now)
+
+    youtrack_result = JetBrainsPluginIdeasCollector().collect(
+        state_path=state_dir / "jetbrains_youtrack_state.json", now=now,
+        fetcher=(youtrack_fetcher if youtrack_fetcher is not None else None),
+    )
+    youtrack_new = append_jetbrains_plugin_idea_signals(signal_path, youtrack_result, observed_at=now)
+
+    marketplace_gaps = MarketplaceGapQueueBuilder().write_queue(
+        signal_path, state_dir / "atlassian_marketplace_gap_queue.json"
+    ) if signal_path.exists() else []
+    jetbrains_gaps = JetBrainsPluginIdeaQueueBuilder().write_queue(
+        signal_path, state_dir / "jetbrains_plugin_idea_queue.json"
+    ) if signal_path.exists() else []
+    promoted = DeterministicOpportunityPromoter().write_queue(
+        signal_path,
+        state_dir / "opportunity_queue.json",
+        decisions_path=root / "data/research_decisions.v0.63.json",
+    ) if signal_path.exists() else []
+
     receipt = {
         "run_id": now.isoformat(),
         "status": "PASS",
@@ -93,14 +122,21 @@ def run_discovery_cycle(*, root: Path, state_dir: Path, now: datetime | None = N
         "new_or_changed_signals": len(new_rows),
         "promoted_opportunities": len(promoted),
         "ready_for_research": sum(1 for x in promoted if x.status == "READY_FOR_RESEARCH"),
+        "atlassian_zero_search_status": atlassian_result.status,
+        "atlassian_zero_search_new_signals": atlassian_new,
+        "atlassian_marketplace_gap_candidates": len(marketplace_gaps),
+        "atlassian_marketplace_gap_queue_path": "runtime_state/atlassian_marketplace_gap_queue.json",
+        "jetbrains_youtrack_status": youtrack_result.status,
+        "jetbrains_youtrack_new_signals": youtrack_new,
+        "jetbrains_plugin_idea_candidates": len(jetbrains_gaps),
+        "jetbrains_plugin_idea_queue_path": "runtime_state/jetbrains_plugin_idea_queue.json",
         "owner_out_of_pocket_usd": 0,
-        "source_policy": "host-api-github-com",
         "state_path": "runtime_state/github_discovery_state.json",
         "signals_path": "runtime_state/signals.ndjson",
         "opportunity_queue_path": "runtime_state/opportunity_queue.json",
     }
     receipt_path = state_dir / "last_run.json"
-    if executed > 0 or not receipt_path.exists():
+    if executed > 0 or atlassian_result.fetched or youtrack_result.fetched or not receipt_path.exists():
         receipt_path.write_text(json.dumps(receipt, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     return receipt
 
