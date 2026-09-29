@@ -4,9 +4,6 @@ on:
   schedule:
     - cron: "*/5 * * * *"
   workflow_dispatch:
-  push:
-    paths:
-      - ".bootstrap-run"
 
 permissions:
   contents: write
@@ -40,6 +37,9 @@ jobs:
       - name: Run recurrent discovery
         env:
           AVF_GITHUB_TOKEN: ${{ github.token }}
+          AVF_ATLASSIAN_EMAIL: ${{ secrets.AVF_ATLASSIAN_EMAIL }}
+          AVF_ATLASSIAN_API_TOKEN: ${{ secrets.AVF_ATLASSIAN_API_TOKEN }}
+          AVF_ATLASSIAN_DEVELOPER_ID: ${{ secrets.AVF_ATLASSIAN_DEVELOPER_ID }}
         run: python -m avf.runtime_job --root . --state-dir runtime_state
       - name: Persist durable state without overwriting newer work
         shell: bash
