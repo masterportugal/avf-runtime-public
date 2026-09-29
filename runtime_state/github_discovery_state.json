@@ -1,0 +1,83 @@
+{
+  "format_version": 1,
+  "states": [
+    {
+      "last_fingerprints": {},
+      "last_run_at": "2026-09-29T00:15:17.933886+00:00",
+      "seen_signal_keys": [],
+      "spec_id": "atlassian-fsrt-friction-v1"
+    },
+    {
+      "last_fingerprints": {
+        "JetBrains/intellij-platform-plugin-template#599": "02c417d6f3c6959136affa8f6e4f5e4afad8dde720e89efdc43bfc135b960517",
+        "JetBrains/intellij-platform-plugin-template#600": "c2a633a50dd3ff10caa05e807fadf8cda763fd61ddcd07a7909a32e962f64285"
+      },
+      "last_run_at": "2026-09-29T00:15:17.933886+00:00",
+      "seen_signal_keys": [
+        "JetBrains/intellij-platform-plugin-template#599",
+        "JetBrains/intellij-platform-plugin-template#600"
+      ],
+      "spec_id": "jetbrains-plugin-template-friction-v1"
+    },
+    {
+      "last_fingerprints": {
+        "woocommerce/woocommerce#67840": "8019f383bb123e278663f0642edb39a603d7053f9f2078ce78fcd3571bd0519b",
+        "woocommerce/woocommerce#68123": "786cc9f0074cb507e1a774fe2fd23bda4374bd7f0a8111ce2ae0d553cc70b238",
+        "woocommerce/woocommerce#68441": "ef83dab64ab9e99d4aebc728732d6bf702211f220feb4dec6af32ba76260cf68",
+        "woocommerce/woocommerce#68797": "0b2ab99c3d1ef604c9cd0f51450a2f1c9e2a85b13d60d69ca4f1d2356c8db27d",
+        "woocommerce/woocommerce#68994": "3c058189dc97908c5c1acda473dcab6ce286192d2bdf0e97e61691f162381d58"
+      },
+      "last_run_at": "2026-09-29T00:15:17.933886+00:00",
+      "seen_signal_keys": [
+        "woocommerce/woocommerce#67840",
+        "woocommerce/woocommerce#68123",
+        "woocommerce/woocommerce#68441",
+        "woocommerce/woocommerce#68797",
+        "woocommerce/woocommerce#68994"
+      ],
+      "spec_id": "woo-block-extensibility-v2"
+    },
+    {
+      "last_fingerprints": {
+        "woocommerce/woocommerce#67318": "a3cf3fd7fedaba53c43751ba829a27a15d10a5020fc047021a38d2ac9d8ee818",
+        "woocommerce/woocommerce#67319": "8cf7bd19c43289ed822ba291fedda0e9c283ced8b00bd29279d0341895a9a394",
+        "woocommerce/woocommerce#67447": "e18463bac514e16c883592a866804593c1bb5e6a9362ed439982e4df951b925a",
+        "woocommerce/woocommerce#67472": "c62e631f1ab62d0f581b69d74f6628923b6563503893caca554ec30fc785ed17",
+        "woocommerce/woocommerce#67487": "4f0a7a416857d8c1a650c07ad5ef689abdd17377826d97e1d797619d5a3f5c48",
+        "woocommerce/woocommerce#67499": "220dfdef350b75e16d459db9b351eb6627f2cb59b4c5e5020ec6adb7a9895635",
+        "woocommerce/woocommerce#67534": "6cc400c2ba5525ae8bc736a37a8734bb4339a9251f4b5d66e3e0d35fa8f0d179",
+        "woocommerce/woocommerce#67667": "f3990896026fb08592968c3e6f708a5842b15bea7a4b96b840403da6e696ce84",
+        "woocommerce/woocommerce#67758": "f0a7b79ca5e8f3a929746eeb7e8da94ee31bfdf5afc91d43027ec4db3ad00ec6",
+        "woocommerce/woocommerce#67847": "62528eef3f02af6761eaa9d30401d2b8c93559b6960de4cca30ab3982e025bcb",
+        "woocommerce/woocommerce#67901": "2d1760465e157e17924a1aa60fb5d297bbbbf39416f40bde122adc5caf2140c6",
+        "woocommerce/woocommerce#68168": "d6844b676a37dde3bad7ad0cf996df08733a27daf8f9a1e55fc1020e83e5e43f",
+        "woocommerce/woocommerce#68441": "ef83dab64ab9e99d4aebc728732d6bf702211f220feb4dec6af32ba76260cf68",
+        "woocommerce/woocommerce#68797": "0b2ab99c3d1ef604c9cd0f51450a2f1c9e2a85b13d60d69ca4f1d2356c8db27d",
+        "woocommerce/woocommerce#68994": "3c058189dc97908c5c1acda473dcab6ce286192d2bdf0e97e61691f162381d58",
+        "woocommerce/woocommerce#69112": "427257e6f716cadd3097b7dd69649c7861b551eff3545c137fb166a476ab12e4",
+        "woocommerce/woocommerce#69133": "cbd11fae619ca3b2e992f6460eb4cde579bcadc30b1b56f4685cea1f545a9e40"
+      },
+      "last_run_at": "2026-09-29T00:15:17.933886+00:00",
+      "seen_signal_keys": [
+        "woocommerce/woocommerce#67318",
+        "woocommerce/woocommerce#67319",
+        "woocommerce/woocommerce#67447",
+        "woocommerce/woocommerce#67472",
+        "woocommerce/woocommerce#67487",
+        "woocommerce/woocommerce#67499",
+        "woocommerce/woocommerce#67534",
+        "woocommerce/woocommerce#67667",
+        "woocommerce/woocommerce#67758",
+        "woocommerce/woocommerce#67847",
+        "woocommerce/woocommerce#67901",
+        "woocommerce/woocommerce#68168",
+        "woocommerce/woocommerce#68441",
+        "woocommerce/woocommerce#68797",
+        "woocommerce/woocommerce#68994",
+        "woocommerce/woocommerce#69112",
+        "woocommerce/woocommerce#69133"
+      ],
+      "spec_id": "woo-extension-compat-v2"
+    }
+  ]
+}
