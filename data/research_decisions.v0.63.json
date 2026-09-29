@@ -1,0 +1,57 @@
+{
+  "checkpoint": "CP-0065",
+  "core_version": "0.63",
+  "decisions": [
+    {
+      "candidate_key": "woocommerce-extension_compatibility",
+      "disposition": "BUILT_IN_KILL",
+      "rationale": "Woo QIT and official platform compatibility tooling already cover extension compatibility; generic checker overlaps built-in/official tooling.",
+      "reviewed_signal_keys": ["woocommerce/woocommerce#67318","woocommerce/woocommerce#67319","woocommerce/woocommerce#67447","woocommerce/woocommerce#67487","woocommerce/woocommerce#69112","woocommerce/woocommerce#69133"],
+      "supporting_urls": ["https://qit.woo.com/"],
+      "suppress_until_new_evidence": true
+    },
+    {
+      "candidate_key": "woocommerce-extensibility_gap",
+      "disposition": "TECHNICAL_PATH_KILL",
+      "rationale": "Observed requests require missing core hooks, filters or events; a third-party extension cannot reliably create absent core extension points.",
+      "reviewed_signal_keys": ["woocommerce/woocommerce#67534","woocommerce/woocommerce#67840","woocommerce/woocommerce#68441","woocommerce/woocommerce#68797","woocommerce/woocommerce#68994"],
+      "supporting_urls": ["https://github.com/woocommerce/woocommerce/issues/68441"],
+      "suppress_until_new_evidence": true
+    },
+    {
+      "candidate_key": "woocommerce-other_friction",
+      "disposition": "NEEDS_MORE_PROBLEM_EVIDENCE",
+      "rationale": "Current signals are heterogeneous and do not form a coherent, repeatable product problem.",
+      "reviewed_signal_keys": ["woocommerce/woocommerce#67499","woocommerce/woocommerce#67667","woocommerce/woocommerce#67758","woocommerce/woocommerce#67847","woocommerce/woocommerce#68123","woocommerce/woocommerce#68168"],
+      "supporting_urls": [],
+      "suppress_until_new_evidence": true
+    },
+    {
+      "candidate_key": "jetbrains-extension_compatibility",
+      "disposition": "BUILT_IN_KILL",
+      "rationale": "JetBrains Plugin Verifier is the official compatibility gate and is integrated into Gradle, CI and Marketplace review; a generic replacement would duplicate official free tooling.",
+      "reviewed_signal_keys": ["JetBrains/intellij-platform-gradle-plugin#2244","JetBrains/intellij-platform-gradle-plugin#2250","JetBrains/intellij-platform-gradle-plugin#2254","JetBrains/intellij-platform-gradle-plugin#2255"],
+      "supporting_urls": ["https://plugins.jetbrains.com/docs/intellij/verifying-plugin-compatibility.html","https://plugins.jetbrains.com/docs/marketplace/jetbrains-marketplace-approval-guidelines.html"],
+      "suppress_until_new_evidence": true
+    },
+    {
+      "candidate_key": "jetbrains-automation_workflow",
+      "disposition": "UPSTREAM_OR_PROCESS_KILL",
+      "rationale": "Observed evidence is an upstream cache bug already closed plus a first-release publishing question covered by official JetBrains publishing workflow; insufficient durable paid-product gap.",
+      "reviewed_signal_keys": ["JetBrains/intellij-platform-gradle-plugin#2199","JetBrains/intellij-platform-plugin-template#599"],
+      "supporting_urls": ["https://github.com/JetBrains/intellij-platform-gradle-plugin/issues/2199","https://github.com/JetBrains/intellij-platform-plugin-template/issues/599","https://plugins.jetbrains.com/docs/intellij/tools-intellij-platform-gradle-plugin.html"],
+      "suppress_until_new_evidence": true
+    },
+    {
+      "candidate_key": "jetbrains-other_friction",
+      "disposition": "NEEDS_MORE_PROBLEM_EVIDENCE",
+      "rationale": "The current group mixes unrelated IDE version resolution, test framework, task migration and download issues rather than one coherent sellable workflow.",
+      "reviewed_signal_keys": ["JetBrains/intellij-platform-gradle-plugin#2210","JetBrains/intellij-platform-gradle-plugin#2218","JetBrains/intellij-platform-gradle-plugin#2239","JetBrains/intellij-platform-gradle-plugin#2243","JetBrains/intellij-platform-gradle-plugin#2245","JetBrains/intellij-platform-gradle-plugin#2247","JetBrains/intellij-platform-gradle-plugin#2249","JetBrains/intellij-platform-gradle-plugin#2251","JetBrains/intellij-platform-gradle-plugin#2252"],
+      "supporting_urls": [],
+      "suppress_until_new_evidence": true
+    }
+  ],
+  "format_version": 1,
+  "owner_customer_recruitment_required": false,
+  "required_out_of_pocket_usd": 0
+}
