@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "avf-public-runtime"
+version = "0.1.0"
+description = "Minimal public zero-cost recurrent discovery runtime for Autonomous Venture Factory"
+requires-python = ">=3.12"
+dependencies = ["pydantic>=2.10,<3"]

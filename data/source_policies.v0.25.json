@@ -1,0 +1,412 @@
+[
+  {
+    "auth_mode": "PUBLIC_READ_ONLY",
+    "host_patterns": [
+      "community.atlassian.com"
+    ],
+    "live_fetch_allowed": false,
+    "notes": "Metadata exists so live fetching is fail-closed. A deployment operator must verify provider terms/robots/rate limits/auth before enabling.",
+    "policy_id": "host-community-atlassian-com",
+    "rate_limit_policy": "LOW_FREQUENCY_ONLY_UNTIL_PROVIDER_LIMITS_VERIFIED",
+    "reviewed_at": "2026-09-16",
+    "robots_status": "NOT_VERIFIED_IN_CORE",
+    "terms_status": "REVIEW_REQUIRED_BEFORE_RECURRING_LIVE_FETCH"
+  },
+  {
+    "auth_mode": "PUBLIC_READ_ONLY",
+    "host_patterns": [
+      "support.atlassian.com"
+    ],
+    "live_fetch_allowed": false,
+    "notes": "Metadata exists so live fetching is fail-closed. A deployment operator must verify provider terms/robots/rate limits/auth before enabling.",
+    "policy_id": "host-support-atlassian-com",
+    "rate_limit_policy": "LOW_FREQUENCY_ONLY_UNTIL_PROVIDER_LIMITS_VERIFIED",
+    "reviewed_at": "2026-09-16",
+    "robots_status": "NOT_VERIFIED_IN_CORE",
+    "terms_status": "REVIEW_REQUIRED_BEFORE_RECURRING_LIVE_FETCH"
+  },
+  {
+    "auth_mode": "PUBLIC_READ_ONLY",
+    "host_patterns": [
+      "marketplace.atlassian.com"
+    ],
+    "live_fetch_allowed": false,
+    "notes": "Metadata exists so live fetching is fail-closed. A deployment operator must verify provider terms/robots/rate limits/auth before enabling.",
+    "policy_id": "host-marketplace-atlassian-com",
+    "rate_limit_policy": "LOW_FREQUENCY_ONLY_UNTIL_PROVIDER_LIMITS_VERIFIED",
+    "reviewed_at": "2026-09-16",
+    "robots_status": "NOT_VERIFIED_IN_CORE",
+    "terms_status": "REVIEW_REQUIRED_BEFORE_RECURRING_LIVE_FETCH"
+  },
+  {
+    "auth_mode": "PUBLIC_READ_ONLY",
+    "host_patterns": [
+      "github.com"
+    ],
+    "live_fetch_allowed": false,
+    "notes": "Metadata exists so live fetching is fail-closed. A deployment operator must verify provider terms/robots/rate limits/auth before enabling.",
+    "policy_id": "host-github-com",
+    "rate_limit_policy": "LOW_FREQUENCY_ONLY_UNTIL_PROVIDER_LIMITS_VERIFIED",
+    "reviewed_at": "2026-09-16",
+    "robots_status": "NOT_VERIFIED_IN_CORE",
+    "terms_status": "REVIEW_REQUIRED_BEFORE_RECURRING_LIVE_FETCH"
+  },
+  {
+    "auth_mode": "PUBLIC_READ_ONLY",
+    "host_patterns": [
+      "docs.github.com"
+    ],
+    "live_fetch_allowed": false,
+    "notes": "Metadata exists so live fetching is fail-closed. A deployment operator must verify provider terms/robots/rate limits/auth before enabling.",
+    "policy_id": "host-docs-github-com",
+    "rate_limit_policy": "LOW_FREQUENCY_ONLY_UNTIL_PROVIDER_LIMITS_VERIFIED",
+    "reviewed_at": "2026-09-16",
+    "robots_status": "NOT_VERIFIED_IN_CORE",
+    "terms_status": "REVIEW_REQUIRED_BEFORE_RECURRING_LIVE_FETCH"
+  },
+  {
+    "auth_mode": "PUBLIC_READ_ONLY",
+    "host_patterns": [
+      "discuss.google.dev"
+    ],
+    "live_fetch_allowed": false,
+    "notes": "Metadata exists so live fetching is fail-closed. A deployment operator must verify provider terms/robots/rate limits/auth before enabling.",
+    "policy_id": "host-discuss-google-dev",
+    "rate_limit_policy": "LOW_FREQUENCY_ONLY_UNTIL_PROVIDER_LIMITS_VERIFIED",
+    "reviewed_at": "2026-09-16",
+    "robots_status": "NOT_VERIFIED_IN_CORE",
+    "terms_status": "REVIEW_REQUIRED_BEFORE_RECURRING_LIVE_FETCH"
+  },
+  {
+    "auth_mode": "PUBLIC_READ_ONLY",
+    "host_patterns": [
+      "knowledge.workspace.google.com"
+    ],
+    "live_fetch_allowed": false,
+    "notes": "Metadata exists so live fetching is fail-closed. A deployment operator must verify provider terms/robots/rate limits/auth before enabling.",
+    "policy_id": "host-knowledge-workspace-google-com",
+    "rate_limit_policy": "LOW_FREQUENCY_ONLY_UNTIL_PROVIDER_LIMITS_VERIFIED",
+    "reviewed_at": "2026-09-16",
+    "robots_status": "NOT_VERIFIED_IN_CORE",
+    "terms_status": "REVIEW_REQUIRED_BEFORE_RECURRING_LIVE_FETCH"
+  },
+  {
+    "auth_mode": "PUBLIC_READ_ONLY",
+    "host_patterns": [
+      "workspaceupdates.googleblog.com"
+    ],
+    "live_fetch_allowed": false,
+    "notes": "Metadata exists so live fetching is fail-closed. A deployment operator must verify provider terms/robots/rate limits/auth before enabling.",
+    "policy_id": "host-workspaceupdates-googleblog-com",
+    "rate_limit_policy": "LOW_FREQUENCY_ONLY_UNTIL_PROVIDER_LIMITS_VERIFIED",
+    "reviewed_at": "2026-09-16",
+    "robots_status": "NOT_VERIFIED_IN_CORE",
+    "terms_status": "REVIEW_REQUIRED_BEFORE_RECURRING_LIVE_FETCH"
+  },
+  {
+    "auth_mode": "PUBLIC_READ_ONLY",
+    "host_patterns": [
+      "developers.google.com"
+    ],
+    "live_fetch_allowed": false,
+    "notes": "Metadata exists so live fetching is fail-closed. A deployment operator must verify provider terms/robots/rate limits/auth before enabling.",
+    "policy_id": "host-developers-google-com",
+    "rate_limit_policy": "LOW_FREQUENCY_ONLY_UNTIL_PROVIDER_LIMITS_VERIFIED",
+    "reviewed_at": "2026-09-16",
+    "robots_status": "NOT_VERIFIED_IN_CORE",
+    "terms_status": "REVIEW_REQUIRED_BEFORE_RECURRING_LIVE_FETCH"
+  },
+  {
+    "auth_mode": "PUBLIC_READ_ONLY",
+    "host_patterns": [
+      "support.google.com"
+    ],
+    "live_fetch_allowed": false,
+    "notes": "Metadata exists so live fetching is fail-closed. A deployment operator must verify provider terms/robots/rate limits/auth before enabling.",
+    "policy_id": "host-support-google-com",
+    "rate_limit_policy": "LOW_FREQUENCY_ONLY_UNTIL_PROVIDER_LIMITS_VERIFIED",
+    "reviewed_at": "2026-09-16",
+    "robots_status": "NOT_VERIFIED_IN_CORE",
+    "terms_status": "REVIEW_REQUIRED_BEFORE_RECURRING_LIVE_FETCH"
+  },
+  {
+    "auth_mode": "PUBLIC_READ_ONLY",
+    "host_patterns": [
+      "gmelius.com"
+    ],
+    "live_fetch_allowed": false,
+    "notes": "Metadata exists so live fetching is fail-closed. A deployment operator must verify provider terms/robots/rate limits/auth before enabling.",
+    "policy_id": "host-gmelius-com",
+    "rate_limit_policy": "LOW_FREQUENCY_ONLY_UNTIL_PROVIDER_LIMITS_VERIFIED",
+    "reviewed_at": "2026-09-16",
+    "robots_status": "NOT_VERIFIED_IN_CORE",
+    "terms_status": "REVIEW_REQUIRED_BEFORE_RECURRING_LIVE_FETCH"
+  },
+  {
+    "auth_mode": "PUBLIC_READ_ONLY",
+    "host_patterns": [
+      "learn.microsoft.com"
+    ],
+    "live_fetch_allowed": false,
+    "notes": "Metadata exists so live fetching is fail-closed. A deployment operator must verify provider terms/robots/rate limits/auth before enabling.",
+    "policy_id": "host-learn-microsoft-com",
+    "rate_limit_policy": "LOW_FREQUENCY_ONLY_UNTIL_PROVIDER_LIMITS_VERIFIED",
+    "reviewed_at": "2026-09-16",
+    "robots_status": "NOT_VERIFIED_IN_CORE",
+    "terms_status": "REVIEW_REQUIRED_BEFORE_RECURRING_LIVE_FETCH"
+  },
+  {
+    "auth_mode": "PUBLIC_READ_ONLY",
+    "host_patterns": [
+      "docs.slack.dev"
+    ],
+    "live_fetch_allowed": false,
+    "notes": "Policy metadata added for CP-0015 research; remains fail-closed.",
+    "policy_id": "host-docs-slack-dev",
+    "rate_limit_policy": "LOW_FREQUENCY_ONLY_UNTIL_PROVIDER_LIMITS_VERIFIED",
+    "reviewed_at": "2026-09-18",
+    "robots_status": "NOT_VERIFIED_IN_CORE",
+    "terms_status": "REVIEW_REQUIRED_BEFORE_RECURRING_LIVE_FETCH"
+  },
+  {
+    "auth_mode": "PUBLIC_READ_ONLY",
+    "host_patterns": [
+      "slack.com"
+    ],
+    "live_fetch_allowed": false,
+    "notes": "Slack help/public pages; recurring fetch remains fail-closed.",
+    "policy_id": "host-slack-com",
+    "rate_limit_policy": "LOW_FREQUENCY_ONLY_UNTIL_PROVIDER_LIMITS_VERIFIED",
+    "reviewed_at": "2026-09-18",
+    "robots_status": "NOT_VERIFIED_IN_CORE",
+    "terms_status": "REVIEW_REQUIRED_BEFORE_RECURRING_LIVE_FETCH"
+  },
+  {
+    "auth_mode": "PUBLIC_READ_ONLY",
+    "host_patterns": [
+      "code.visualstudio.com"
+    ],
+    "live_fetch_allowed": false,
+    "notes": "VS Code docs; recurring fetch remains fail-closed.",
+    "policy_id": "host-code-visualstudio-com",
+    "rate_limit_policy": "LOW_FREQUENCY_ONLY_UNTIL_PROVIDER_LIMITS_VERIFIED",
+    "reviewed_at": "2026-09-18",
+    "robots_status": "NOT_VERIFIED_IN_CORE",
+    "terms_status": "REVIEW_REQUIRED_BEFORE_RECURRING_LIVE_FETCH"
+  },
+  {
+    "auth_mode": "PUBLIC_READ_ONLY",
+    "host_patterns": [
+      "marketplace.visualstudio.com"
+    ],
+    "live_fetch_allowed": false,
+    "notes": "Marketplace web endpoint; recurring fetch remains fail-closed.",
+    "policy_id": "host-marketplace-visualstudio-com",
+    "rate_limit_policy": "LOW_FREQUENCY_ONLY_UNTIL_PROVIDER_LIMITS_VERIFIED",
+    "reviewed_at": "2026-09-18",
+    "robots_status": "NOT_VERIFIED_IN_CORE",
+    "terms_status": "REVIEW_REQUIRED_BEFORE_RECURRING_LIVE_FETCH"
+  },
+  {
+    "auth_mode": "PUBLIC_READ_ONLY_UNAUTHENTICATED",
+    "host_patterns": [
+      "api.github.com"
+    ],
+    "live_fetch_allowed": true,
+    "notes": "GitHub API ToS and REST rate limits reviewed. Public read-only metadata only; no personal-data resale/spam; prefer webhooks/conditional requests and minimal polling.",
+    "policy_id": "host-api-github-com",
+    "rate_limit_policy": "MAX_60_REQUESTS_PER_HOUR_UNAUTHENTICATED; SERIAL; CONDITIONAL_WHEN_POSSIBLE; HONOR_RETRY_AFTER_AND_X_RATELIMIT_RESET",
+    "reviewed_at": "2026-09-18",
+    "robots_status": "NOT_APPLICABLE_API_ENDPOINT",
+    "terms_status": "VERIFIED_GITHUB_API_TERMS_2026-09-18"
+  },
+  {
+    "auth_mode": "PUBLIC_READ_ONLY",
+    "host_patterns": [
+      "notion.com",
+      "www.notion.com"
+    ],
+    "live_fetch_allowed": false,
+    "notes": "CP-0016 adds metadata only. Current research was performed interactively; recurring live collection remains fail-closed.",
+    "policy_id": "host-notion-com",
+    "rate_limit_policy": "LOW_FREQUENCY_ONLY_UNTIL_PROVIDER_LIMITS_VERIFIED",
+    "reviewed_at": "2026-09-18",
+    "robots_status": "NOT_VERIFIED_IN_CORE",
+    "terms_status": "REVIEW_REQUIRED_BEFORE_RECURRING_LIVE_FETCH"
+  },
+  {
+    "auth_mode": "PUBLIC_READ_ONLY",
+    "host_patterns": [
+      "ticktick.com"
+    ],
+    "live_fetch_allowed": false,
+    "notes": "CP-0017 research metadata only; recurring collection remains fail-closed.",
+    "policy_id": "host-ticktick-com",
+    "rate_limit_policy": "LOW_FREQUENCY_ONLY_UNTIL_PROVIDER_LIMITS_VERIFIED",
+    "reviewed_at": "2026-09-18",
+    "robots_status": "NOT_VERIFIED_IN_CORE",
+    "terms_status": "REVIEW_REQUIRED_BEFORE_RECURRING_LIVE_FETCH"
+  },
+  {
+    "auth_mode": "PUBLIC_READ_ONLY",
+    "host_patterns": [
+      "flowtide.io",
+      "www.flowtide.io"
+    ],
+    "live_fetch_allowed": false,
+    "notes": "CP-0017 research metadata only; recurring collection remains fail-closed.",
+    "policy_id": "host-flowtide-io",
+    "rate_limit_policy": "LOW_FREQUENCY_ONLY_UNTIL_PROVIDER_LIMITS_VERIFIED",
+    "reviewed_at": "2026-09-18",
+    "robots_status": "NOT_VERIFIED_IN_CORE",
+    "terms_status": "REVIEW_REQUIRED_BEFORE_RECURRING_LIVE_FETCH"
+  },
+  {
+    "auth_mode": "PUBLIC_READ_ONLY",
+    "host_patterns": [
+      "apps.shopify.com"
+    ],
+    "live_fetch_allowed": false,
+    "notes": "CP-0017 research metadata only; recurring collection remains fail-closed.",
+    "policy_id": "host-apps-shopify-com",
+    "rate_limit_policy": "LOW_FREQUENCY_ONLY_UNTIL_PROVIDER_LIMITS_VERIFIED",
+    "reviewed_at": "2026-09-18",
+    "robots_status": "NOT_VERIFIED_IN_CORE",
+    "terms_status": "REVIEW_REQUIRED_BEFORE_RECURRING_LIVE_FETCH"
+  },
+  {
+    "auth_mode": "PUBLIC_READ_ONLY",
+    "host_patterns": [
+      "woocommerce.com",
+      "www.woocommerce.com"
+    ],
+    "live_fetch_allowed": false,
+    "notes": "CP-0017 research metadata only; recurring collection remains fail-closed.",
+    "policy_id": "host-woocommerce-com",
+    "rate_limit_policy": "LOW_FREQUENCY_ONLY_UNTIL_PROVIDER_LIMITS_VERIFIED",
+    "reviewed_at": "2026-09-18",
+    "robots_status": "NOT_VERIFIED_IN_CORE",
+    "terms_status": "REVIEW_REQUIRED_BEFORE_RECURRING_LIVE_FETCH"
+  },
+  {
+    "auth_mode": "PUBLIC_READ_ONLY",
+    "host_patterns": [
+      "wpfactory.com",
+      "www.wpfactory.com"
+    ],
+    "live_fetch_allowed": false,
+    "notes": "CP-0017 research metadata only; recurring collection remains fail-closed.",
+    "policy_id": "host-wpfactory-com",
+    "rate_limit_policy": "LOW_FREQUENCY_ONLY_UNTIL_PROVIDER_LIMITS_VERIFIED",
+    "reviewed_at": "2026-09-18",
+    "robots_status": "NOT_VERIFIED_IN_CORE",
+    "terms_status": "REVIEW_REQUIRED_BEFORE_RECURRING_LIVE_FETCH"
+  },
+  {
+    "auth_mode": "PUBLIC_READ_ONLY",
+    "host_patterns": [
+      "canva.com",
+      "www.canva.com"
+    ],
+    "live_fetch_allowed": false,
+    "notes": "CP-0017 research metadata only; recurring collection remains fail-closed.",
+    "policy_id": "host-canva-com",
+    "rate_limit_policy": "LOW_FREQUENCY_ONLY_UNTIL_PROVIDER_LIMITS_VERIFIED",
+    "reviewed_at": "2026-09-18",
+    "robots_status": "NOT_VERIFIED_IN_CORE",
+    "terms_status": "REVIEW_REQUIRED_BEFORE_RECURRING_LIVE_FETCH"
+  },
+  {
+    "auth_mode": "PUBLIC_READ_ONLY",
+    "host_patterns": [
+      "jetbrains.com",
+      "www.jetbrains.com"
+    ],
+    "live_fetch_allowed": false,
+    "notes": "CP-0017 research metadata only; recurring collection remains fail-closed.",
+    "policy_id": "host-jetbrains-com",
+    "rate_limit_policy": "LOW_FREQUENCY_ONLY_UNTIL_PROVIDER_LIMITS_VERIFIED",
+    "reviewed_at": "2026-09-18",
+    "robots_status": "NOT_VERIFIED_IN_CORE",
+    "terms_status": "REVIEW_REQUIRED_BEFORE_RECURRING_LIVE_FETCH"
+  },
+  {
+    "auth_mode": "PUBLIC_READ_ONLY",
+    "host_patterns": [
+      "thomasjfrank.com",
+      "www.thomasjfrank.com"
+    ],
+    "live_fetch_allowed": false,
+    "notes": "CP-0017 research metadata only; recurring collection remains fail-closed.",
+    "policy_id": "host-thomasjfrank-com",
+    "rate_limit_policy": "LOW_FREQUENCY_ONLY_UNTIL_PROVIDER_LIMITS_VERIFIED",
+    "reviewed_at": "2026-09-18",
+    "robots_status": "NOT_VERIFIED_IN_CORE",
+    "terms_status": "REVIEW_REQUIRED_BEFORE_RECURRING_LIVE_FETCH"
+  },
+  {
+    "auth_mode": "PUBLIC_READ_ONLY",
+    "host_patterns": [
+      "shopify.dev"
+    ],
+    "live_fetch_allowed": false,
+    "notes": "Research metadata registered fail-closed; current web research does not certify autonomous recurrent collection.",
+    "policy_id": "host-shopify-dev",
+    "rate_limit_policy": "NO_LIVE_FETCH_UNTIL_CERTIFIED",
+    "reviewed_at": "2026-09-20",
+    "robots_status": "NOT_VERIFIED_FOR_RECURRENT_COLLECTION",
+    "terms_status": "REVIEW_REQUIRED_FOR_AUTOMATED_COLLECTION"
+  },
+  {
+    "auth_mode": "PUBLIC_READ_ONLY",
+    "host_patterns": [
+      "community.shopify.dev"
+    ],
+    "live_fetch_allowed": false,
+    "notes": "Research metadata registered fail-closed; current web research does not certify autonomous recurrent collection.",
+    "policy_id": "host-community-shopify-dev",
+    "rate_limit_policy": "NO_LIVE_FETCH_UNTIL_CERTIFIED",
+    "reviewed_at": "2026-09-20",
+    "robots_status": "NOT_VERIFIED_FOR_RECURRENT_COLLECTION",
+    "terms_status": "REVIEW_REQUIRED_FOR_AUTOMATED_COLLECTION"
+  },
+  {
+    "auth_mode": "PUBLIC_READ_ONLY",
+    "host_patterns": [
+      "developer.atlassian.com"
+    ],
+    "live_fetch_allowed": false,
+    "notes": "Research metadata registered fail-closed; current web research does not certify autonomous recurrent collection.",
+    "policy_id": "host-developer-atlassian-com",
+    "rate_limit_policy": "NO_LIVE_FETCH_UNTIL_CERTIFIED",
+    "reviewed_at": "2026-09-20",
+    "robots_status": "NOT_VERIFIED_FOR_RECURRENT_COLLECTION",
+    "terms_status": "REVIEW_REQUIRED_FOR_AUTOMATED_COLLECTION"
+  },
+  {
+    "auth_mode": "PUBLIC_READ_ONLY",
+    "host_patterns": [
+      "developer.woocommerce.com"
+    ],
+    "live_fetch_allowed": false,
+    "notes": "Research metadata registered fail-closed; current web research does not certify autonomous recurrent collection.",
+    "policy_id": "host-developer-woocommerce-com",
+    "rate_limit_policy": "NO_LIVE_FETCH_UNTIL_CERTIFIED",
+    "reviewed_at": "2026-09-20",
+    "robots_status": "NOT_VERIFIED_FOR_RECURRENT_COLLECTION",
+    "terms_status": "REVIEW_REQUIRED_FOR_AUTOMATED_COLLECTION"
+  },
+  {
+    "auth_mode": "PUBLIC_READ_ONLY",
+    "host_patterns": [
+      "devblogs.microsoft.com"
+    ],
+    "live_fetch_allowed": false,
+    "notes": "Research metadata registered fail-closed; current web research does not certify autonomous recurrent collection.",
+    "policy_id": "host-devblogs-microsoft-com",
+    "rate_limit_policy": "NO_LIVE_FETCH_UNTIL_CERTIFIED",
+    "reviewed_at": "2026-09-20",
+    "robots_status": "NOT_VERIFIED_FOR_RECURRENT_COLLECTION",
+    "terms_status": "REVIEW_REQUIRED_FOR_AUTOMATED_COLLECTION"
+  }
+]
