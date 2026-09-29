@@ -1,0 +1,1005 @@
+{
+  "format_version": 1,
+  "opportunities": [
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-197184-implement-forgejo-integration",
+      "issue_id": "IJPL-197184",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Implement Forgejo integration",
+      "updated_ms": 1790481906195
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-dbe-16186-integration-with-sqlfluff-linter-and-auto-formatter",
+      "issue_id": "DBE-16186",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Integration with sqlfluff linter and auto-formatter",
+      "updated_ms": 1790375066312
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-70388-support-for-g-suite-google-apps-script-gas-development",
+      "issue_id": "IJPL-70388",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Support for G Suite Google Apps Script (GAS) Development",
+      "updated_ms": 1790219995152
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-14235-add-option-to-assign-keyboard-shortcut-to-run-debug-configurations",
+      "issue_id": "IJPL-14235",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Add option to assign keyboard shortcut to Run/Debug configurations",
+      "updated_ms": 1790110660164
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-cpp-49349-clion-support-to-lua",
+      "issue_id": "CPP-49349",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "CLion Support to Lua",
+      "updated_ms": 1790038320162
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-go-9136-improve-navigation-for-function-types-so-they-behave-similar-to-interf",
+      "issue_id": "GO-9136",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Improve navigation for function types so they behave similar to interfaces and their implementations",
+      "updated_ms": 1790020200931
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-go-3232-need-a-qml-editor",
+      "issue_id": "GO-3232",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Need a QML editor",
+      "updated_ms": 1789992819267
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-go-5655-support-for-godog-testing-framework",
+      "issue_id": "GO-5655",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Support for godog testing framework",
+      "updated_ms": 1789992749247
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-go-2954-add-support-for-ginkgo-bdd-tests",
+      "issue_id": "GO-2954",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Add support for Ginkgo BDD Tests",
+      "updated_ms": 1789992702533
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-go-4810-support-for-quicktemplate-files",
+      "issue_id": "GO-4810",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Support for quicktemplate files",
+      "updated_ms": 1789991961020
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-idea-124520-eclipse-rcp-development-support",
+      "issue_id": "IDEA-124520",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Eclipse RCP development support",
+      "updated_ms": 1789555447624
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-11588-support-direnv",
+      "issue_id": "IJPL-11588",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Support `direnv`",
+      "updated_ms": 1789537194440
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-64506-support-of-ansible-lsp",
+      "issue_id": "IJPL-64506",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Support of ansible LSP",
+      "updated_ms": 1789031598902
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-py-4536-support-the-sqlalchemy-object-relational-mapper",
+      "issue_id": "PY-4536",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Support the SQLAlchemy object relational mapper",
+      "updated_ms": 1788891370316
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-158713-make-newui-grey-again-default-light-ui-is-too-bright-please-use-macos-",
+      "issue_id": "IJPL-158713",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Make NewUI Grey Again (default light UI is too bright! Please use macOS greys!)",
+      "updated_ms": 1788806165171
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-idea-270624-markdown-add-a-wysiwyg-editor-like-typora",
+      "issue_id": "IDEA-270624",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Markdown: Add a WYSIWYG editor like Typora",
+      "updated_ms": 1788391123469
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-150186-http-client-support-export-of-files-and-directories-to-postman-collect",
+      "issue_id": "IJPL-150186",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "HTTP Client: support export of files and directories to Postman collection format",
+      "updated_ms": 1788340789034
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-tw-84799-build-blocker",
+      "issue_id": "TW-84799",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Build Blocker",
+      "updated_ms": 1788252413894
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-29948-parse-vim-and-emacs-modeline-to-set-file-type-on-the-fly",
+      "issue_id": "IJPL-29948",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Parse VIM and Emacs modeline to set file type on-the-fly",
+      "updated_ms": 1787914073767
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-vim-13-tag-line-support-for-the-editor",
+      "issue_id": "VIM-13",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Tag line support for the editor",
+      "updated_ms": 1787914073750
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-84221-gitlab-workflow",
+      "issue_id": "IJPL-84221",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "GitLab Workflow",
+      "updated_ms": 1787893755939
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-28727-ansi-color-and-formatting-support-for-log-files",
+      "issue_id": "IJPL-28727",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "ANSI Color and formatting support for .log files",
+      "updated_ms": 1787184686141
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-idea-357037-ldap-browser",
+      "issue_id": "IDEA-357037",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "LDAP Browser",
+      "updated_ms": 1786654560500
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-97563-add-linear-app-as-a-task-server-in-idea",
+      "issue_id": "IJPL-97563",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Add Linear.app as a task server in IDEA",
+      "updated_ms": 1786088829842
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-160949-gutter-lines-indicating-folding-unfolding-code",
+      "issue_id": "IJPL-160949",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Gutter: lines indicating folding/unfolding code",
+      "updated_ms": 1785972258581
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-idea-15540-export-breakpoints",
+      "issue_id": "IDEA-15540",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Export breakpoints",
+      "updated_ms": 1785418664013
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-82612-gitlab-continous-integration",
+      "issue_id": "IJPL-82612",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "GitLab Continous Integration",
+      "updated_ms": 1785418632528
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-go-12084-support-gofumpt-formatting-rules-on-commit",
+      "issue_id": "GO-12084",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Support gofumpt formatting rules on commit",
+      "updated_ms": 1785249815841
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-233573-project-view-add-context-menu-item-search-for-a-file-in-this-folder",
+      "issue_id": "IJPL-233573",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Project view: add context menu item \"Search for a file in this folder\"",
+      "updated_ms": 1785192376326
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-62086-share-bookmarks-with-team-members",
+      "issue_id": "IJPL-62086",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Share bookmarks with team members",
+      "updated_ms": 1784872524324
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-236207-navigate-directly-to-settings-sub-menu",
+      "issue_id": "IJPL-236207",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Navigate directly to settings sub menu",
+      "updated_ms": 1784663768492
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-idea-292850-simple-cobol-language-support",
+      "issue_id": "IDEA-292850",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Simple COBOL language Support",
+      "updated_ms": 1784574776475
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-58626-project-management-allow-to-sort-projects-in-alphabetical-recent-order",
+      "issue_id": "IJPL-58626",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Project management: allow to sort projects in alphabetical/recent order",
+      "updated_ms": 1784565444468
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-48496-add-a-way-to-restore-old-ui-icons",
+      "issue_id": "IJPL-48496",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Add a way to restore old UI icons",
+      "updated_ms": 1784318226798
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-idea-135728-gui-for-pom-xml",
+      "issue_id": "IDEA-135728",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "GUI for pom.xml",
+      "updated_ms": 1784137569917
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-201812-mac-os-notification-after-a-job-completes",
+      "issue_id": "IJPL-201812",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Mac OS notification after a job completes",
+      "updated_ms": 1783719406184
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-171419-save-button-must-give-a-feedback-after-beeing-pressed",
+      "issue_id": "IJPL-171419",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Save button must give a feedback after beeing pressed",
+      "updated_ms": 1783594901708
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-337-assign-keyboard-shortcuts-or-postfix-completions-to-live-templates",
+      "issue_id": "IJPL-337",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Assign keyboard shortcuts or postfix completions to live templates",
+      "updated_ms": 1782596862878
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-238760-new-scratch-file-allow-configuring-and-grouping",
+      "issue_id": "IJPL-238760",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "New Scratch File: allow configuring and grouping",
+      "updated_ms": 1782230620659
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-10808-rename-multiple-files-using-settings-similar-to-replace-in-path-dialog",
+      "issue_id": "IJPL-10808",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Rename multiple files using settings similar to Replace in Path dialog",
+      "updated_ms": 1782228362825
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-37157-configure-custom-author-name-email-organization-to-be-used-in-file-tem",
+      "issue_id": "IJPL-37157",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Configure custom author name/email/organization to be used in file templates, completion etc",
+      "updated_ms": 1781815735972
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-172437-new-ui-accessibility-can-t-see-wireframe-icons",
+      "issue_id": "IJPL-172437",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "New UI Accessibility - Can't see Wireframe Icons",
+      "updated_ms": 1781813285808
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-161923-allow-showing-the-relative-path-from-the-project-root-in-window-header",
+      "issue_id": "IJPL-161923",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Allow showing the relative path from the project root  in window header",
+      "updated_ms": 1781773524887
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-17475-actions-to-configure-highlighting-level",
+      "issue_id": "IJPL-17475",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Actions to configure highlighting level",
+      "updated_ms": 1781768160971
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-8489-new-project-wizard-github-projects-as-project-templates-extension",
+      "issue_id": "IJPL-8489",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "New Project Wizard: \"GitHub projects as Project Templates\" extension",
+      "updated_ms": 1781768157630
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-45220-use-selection-for-find",
+      "issue_id": "IJPL-45220",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Use Selection For Find",
+      "updated_ms": 1781762093217
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-39662-provide-a-way-to-configure-search-engine-for-search-with-google-action",
+      "issue_id": "IJPL-39662",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Provide a way to configure search engine for \"Search with Google\" action",
+      "updated_ms": 1781761404179
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-103062-supporting-the-nu-language",
+      "issue_id": "IJPL-103062",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Supporting the Nu language",
+      "updated_ms": 1781603480460
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-17433-any-plans-to-support-sarif",
+      "issue_id": "IJPL-17433",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Any plans to support SARIF?",
+      "updated_ms": 1780592263343
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-246014-copy-with-imports-as-text",
+      "issue_id": "IJPL-246014",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Copy with imports as text",
+      "updated_ms": 1780070815057
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-idea-170142-add-support-to-convert-properties-into-yaml-application-properties-app",
+      "issue_id": "IDEA-170142",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Add Support to convert .properties into .yaml (application.properties -> application.yaml etc)",
+      "updated_ms": 1779965970966
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-26792-group-editor-tabs-by-file-type-extension",
+      "issue_id": "IJPL-26792",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Group editor tabs by file type/extension",
+      "updated_ms": 1779732505596
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-190534-display-number-of-lines-instead-of-lines-breaks-in-the-line-column-num",
+      "issue_id": "IJPL-190534",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Display number of lines instead of lines breaks in the Line:Column Number widget",
+      "updated_ms": 1779539255391
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-235725-request-for-a-new-jetbrains-ide-theme-based-on-community-feedback",
+      "issue_id": "IJPL-235725",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Request for a New JetBrains IDE Theme (Based on Community Feedback)",
+      "updated_ms": 1779258257898
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-236925-project-view-highlight-the-current-folder",
+      "issue_id": "IJPL-236925",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Project view: highlight the current folder",
+      "updated_ms": 1778837268690
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ideabkl-6023-textile-gdoc-files",
+      "issue_id": "IDEABKL-6023",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Textile/gdoc files",
+      "updated_ms": 1778677911723
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-18253-go-to-file-by-name-when-ctrl-clicking-a-string-literal",
+      "issue_id": "IJPL-18253",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Go to file by name when Ctrl+clicking a string literal",
+      "updated_ms": 1778604085527
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-83080-ukrainian-ide-localisation",
+      "issue_id": "IJPL-83080",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Ukrainian: IDE Localisation",
+      "updated_ms": 1778162046682
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-175791-add-action-to-toggle-full-line-completion",
+      "issue_id": "IJPL-175791",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Add action to toggle full line completion",
+      "updated_ms": 1777898644007
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-idea-267900-support-for-jqwik",
+      "issue_id": "IDEA-267900",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Support for jqwik",
+      "updated_ms": 1777075016994
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-160306-typespec-support",
+      "issue_id": "IJPL-160306",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "TypeSpec support",
+      "updated_ms": 1776959784949
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-idea-199681-detect-and-apply-byte-buddy-plugin",
+      "issue_id": "IDEA-199681",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Detect and apply byte buddy plugin",
+      "updated_ms": 1776835954544
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-idea-97678-robot-framework-integration",
+      "issue_id": "IDEA-97678",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Robot Framework integration",
+      "updated_ms": 1775169019220
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-61036-request-for-both-java-kotlin-when-choosing-find-usages-on-import-line-",
+      "issue_id": "IJPL-61036",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Request: for both Java&Kotlin, when choosing \"find usages\" on \"import\" line, show all places in current file that use this import",
+      "updated_ms": 1775119876799
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-idea-325616-support-java-checked-exceptions-as-unchecked-exception-feature-improve",
+      "issue_id": "IDEA-325616",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Support Java checked exceptions as unchecked exception feature; improve compatibility with Kotlin",
+      "updated_ms": 1775119855004
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-idea-304530-action-to-copy-the-code-of-a-builder-method-call-to-the-clipboard",
+      "issue_id": "IDEA-304530",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Action to copy the code of a builder method call to the clipboard",
+      "updated_ms": 1775119854999
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-idea-309086-show-method-member-access-in-gutter",
+      "issue_id": "IDEA-309086",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Show method/member access in gutter",
+      "updated_ms": 1775119854997
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-idea-350954-a-single-list-of-all-native-functions-language-constructs-and-operator",
+      "issue_id": "IDEA-350954",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "A single list of all native functions, language constructs and operators with Drag-n-Drop functionality",
+      "updated_ms": 1775119854989
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-tw-80336-teamcity-stryker-integration",
+      "issue_id": "TW-80336",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Teamcity Stryker integration",
+      "updated_ms": 1774510839562
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-188994-cut-tab-header-for-index-ts-files",
+      "issue_id": "IJPL-188994",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Cut tab header for \"index.ts\" files",
+      "updated_ms": 1774451764489
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-12643-export-run-configuration-as-shell-script-or-powershell-script",
+      "issue_id": "IJPL-12643",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Export Run Configuration as Shell Script (or PowerShell script)",
+      "updated_ms": 1774013437787
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-172246-add-run-configuration-type-that-starts-opens-browser-window-at-indicat",
+      "issue_id": "IJPL-172246",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Add Run configuration type that starts/opens browser window at indicated URL",
+      "updated_ms": 1774013430153
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-159113-add-ability-to-generate-techstack-md-file-from-stackshare-io",
+      "issue_id": "IJPL-159113",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Add ability to generate Techstack.md file from Stackshare.io",
+      "updated_ms": 1774013428283
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-55181-copy-path-bread-crumb-to-clipboard",
+      "issue_id": "IJPL-55181",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Copy path (bread crumb) to clipboard",
+      "updated_ms": 1773937937225
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-76672-support-special-comment-that-will-pop-up-on-every-commit-attempt",
+      "issue_id": "IJPL-76672",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Support special comment that will pop up on every commit attempt",
+      "updated_ms": 1773763849147
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-73087-pull-list-and-navigate-through-own-gists-from-github",
+      "issue_id": "IJPL-73087",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Pull, list and navigate through own gists from GitHub",
+      "updated_ms": 1773671568962
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-idea-312383-request-for-the-implementation-of-a-new-plugin-tool-feature-planner",
+      "issue_id": "IDEA-312383",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Request for the implementation of a new plugin/tool: Feature Planner",
+      "updated_ms": 1773242323486
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-164462-add-a-muted-icon-for-breakpoints-in-ide-toolbar",
+      "issue_id": "IJPL-164462",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Add a \"MUTED\" icon for breakpoints in IDE toolbar",
+      "updated_ms": 1773238405891
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-174878-add-copy-variable-name-and-value-to-debugger-context-menu",
+      "issue_id": "IJPL-174878",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Add \"Copy variable name and value\" to debugger context menu",
+      "updated_ms": 1773238377581
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-18288-contextual-language-file-reference-modifiers",
+      "issue_id": "IJPL-18288",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Contextual @Language(\"file-reference\") modifiers",
+      "updated_ms": 1772170142092
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-156574-customize-letters-for-generated-icons",
+      "issue_id": "IJPL-156574",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Customize letters for generated icons",
+      "updated_ms": 1772111543136
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-236081-opening-files-in-a-right-split-from-structure-tool-window-and-file-str",
+      "issue_id": "IJPL-236081",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Opening files in a Right Split from Structure tool window and File Structure popup",
+      "updated_ms": 1771988458597
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-186183-sort-editor-tabs",
+      "issue_id": "IJPL-186183",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Sort editor tabs",
+      "updated_ms": 1771158680866
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-231201-support-goto-in-the-context-menu-of-a-file",
+      "issue_id": "IJPL-231201",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Support GOTO in the context menu of a file",
+      "updated_ms": 1770840730671
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-231693-ability-to-sort-folder-by-last-modified",
+      "issue_id": "IJPL-231693",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Ability to sort folder by last modified",
+      "updated_ms": 1770627873388
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-idea-24108-stringtemplate-template-engine",
+      "issue_id": "IDEA-24108",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "StringTemplate template engine",
+      "updated_ms": 1770376517639
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-idea-61007-zk-framework",
+      "issue_id": "IDEA-61007",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "ZK framework",
+      "updated_ms": 1769957550761
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-226590-unified-mechanism-for-toggling-and-displaying-boolean-settings-in-the-",
+      "issue_id": "IJPL-226590",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Unified Mechanism for Toggling and Displaying Boolean Settings in the IDE Toolbar",
+      "updated_ms": 1769199922261
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-229110-highlight-changed-settings",
+      "issue_id": "IJPL-229110",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Highlight changed settings",
+      "updated_ms": 1769155312506
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-191776-enable-disable-inline-code-completion-action",
+      "issue_id": "IJPL-191776",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Enable/disable inline code completion action",
+      "updated_ms": 1768849257310
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-177203-project-tree-icons-should-contain-more-info-about-contents-of-the-node",
+      "issue_id": "IJPL-177203",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Project tree icons should contain more info about contents of the node",
+      "updated_ms": 1768658946868
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-173083-feature-request-integrating-regional-utility-tools-in-jetbrains-plugin",
+      "issue_id": "IJPL-173083",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Feature Request: Integrating Regional Utility Tools in JetBrains Plugins",
+      "updated_ms": 1768630229455
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-228176-add-filter-for-modified-shortcuts-in-keymap-settings",
+      "issue_id": "IJPL-228176",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Add filter for modified shortcuts in Keymap settings",
+      "updated_ms": 1768431641076
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-225402-add-action-close-all-tabs-except-those-with-breakpoints",
+      "issue_id": "IJPL-225402",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Add action: Close All Tabs Except Those With Breakpoints",
+      "updated_ms": 1768324824767
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-49321-define-custom-file-folder-icons",
+      "issue_id": "IJPL-49321",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Define custom file/folder icons",
+      "updated_ms": 1768148921325
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-186583-order-tabs-alphabetically",
+      "issue_id": "IJPL-186583",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Order tabs alphabetically",
+      "updated_ms": 1768003536754
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-156867-timestamp-option-for-date-pickers",
+      "issue_id": "IJPL-156867",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Timestamp option for date pickers",
+      "updated_ms": 1767939151680
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-rider-59477-new-run-debug-template-ssh-remote-debug-of-console-server-apps",
+      "issue_id": "RIDER-59477",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "New Run/Debug Template - SSH Remote Debug of Console/Server apps",
+      "updated_ms": 1767901020532
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-49908-add-xml-json-export-to-search-results-find-tool",
+      "issue_id": "IJPL-49908",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Add XML/JSON Export to search results (Find Tool)",
+      "updated_ms": 1767693240545
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-idea-158104-jenkins-pipeline",
+      "issue_id": "IDEA-158104",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Jenkins Pipeline",
+      "updated_ms": 1767623027286
+    }
+  ]
+}
