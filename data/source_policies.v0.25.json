@@ -408,5 +408,18 @@
     "reviewed_at": "2026-09-20",
     "robots_status": "NOT_VERIFIED_FOR_RECURRENT_COLLECTION",
     "terms_status": "REVIEW_REQUIRED_FOR_AUTOMATED_COLLECTION"
+  },
+  {
+    "auth_mode": "ATLASSIAN_BASIC_AUTH_EPHEMERAL_SECRETS",
+    "host_patterns": [
+      "api.atlassian.com"
+    ],
+    "live_fetch_allowed": true,
+    "notes": "Official Atlassian Marketplace REST API only. Collector remains fail-closed unless all three runtime secrets are present; credentials are never persisted.",
+    "policy_id": "host-api-atlassian-com",
+    "rate_limit_policy": "DAILY_ZERO_SEARCH_REPORT_ONLY",
+    "reviewed_at": "2026-09-29",
+    "robots_status": "NOT_APPLICABLE_API_ENDPOINT",
+    "terms_status": "VERIFIED_OFFICIAL_MARKETPLACE_REST_API_2026-09-29"
   }
 ]
