@@ -1,0 +1,85 @@
+{
+  "issue_json": {
+    "$type": "Issue",
+    "created": 1675437361900,
+    "idReadable": "IDEA-312383",
+    "summary": "Request for the implementation of a new plugin/tool: Feature Planner",
+    "tags": [
+      {
+        "$type": "Tag",
+        "name": "plugin-welcome"
+      }
+    ],
+    "updated": 1773242323486
+  },
+  "issue_probe_status": 200,
+  "query_count": 10,
+  "query_probe_status": 200,
+  "query_sample": [
+    {
+      "$type": "Issue",
+      "created": 1752594153832,
+      "idReadable": "IJPL-197184",
+      "summary": "Implement Forgejo integration",
+      "tags": [
+        {
+          "$type": "Tag",
+          "name": "plugin-welcome"
+        }
+      ],
+      "updated": 1790481906195
+    },
+    {
+      "$type": "Issue",
+      "created": 1660226358763,
+      "idReadable": "DBE-16186",
+      "summary": "Integration with sqlfluff linter and auto-formatter",
+      "tags": [
+        {
+          "$type": "Tag",
+          "name": "plugin-welcome"
+        }
+      ],
+      "updated": 1790375066312
+    },
+    {
+      "$type": "Issue",
+      "created": 1485358288531,
+      "idReadable": "IJPL-70388",
+      "summary": "Support for G Suite Google Apps Script (GAS) Development",
+      "tags": [
+        {
+          "$type": "Tag",
+          "name": "plugin-welcome"
+        }
+      ],
+      "updated": 1790219995152
+    },
+    {
+      "$type": "Issue",
+      "created": 1305890304276,
+      "idReadable": "IJPL-14235",
+      "summary": "Add option to assign keyboard shortcut to Run/Debug configurations",
+      "tags": [
+        {
+          "$type": "Tag",
+          "name": "plugin-welcome"
+        }
+      ],
+      "updated": 1790110660164
+    },
+    {
+      "$type": "Issue",
+      "created": 1774245711311,
+      "idReadable": "CPP-49349",
+      "summary": "CLion Support to Lua",
+      "tags": [
+        {
+          "$type": "Tag",
+          "name": "plugin-welcome"
+        }
+      ],
+      "updated": 1790038320162
+    }
+  ]
+}
