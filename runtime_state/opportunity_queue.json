@@ -1,0 +1,171 @@
+{
+  "format_version": 1,
+  "opportunities": [
+    {
+      "candidate_key": "jetbrains-ai_developer_workflow",
+      "evidence_count": 1,
+      "evidence_signal_keys": [
+        "JetBrains/intellij-platform-plugin-template#600"
+      ],
+      "evidence_urls": [
+        "https://github.com/JetBrains/intellij-platform-plugin-template/issues/600"
+      ],
+      "friction_family": "ai_developer_workflow",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains",
+      "representative_titles": [
+        "AI (AGENTS.md, skills, etc.)"
+      ],
+      "required_out_of_pocket_usd": 0.0,
+      "status": "NEEDS_MORE_EVIDENCE"
+    },
+    {
+      "candidate_key": "jetbrains-automation_workflow",
+      "evidence_count": 1,
+      "evidence_signal_keys": [
+        "JetBrains/intellij-platform-plugin-template#599"
+      ],
+      "evidence_urls": [
+        "https://github.com/JetBrains/intellij-platform-plugin-template/issues/599"
+      ],
+      "friction_family": "automation_workflow",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains",
+      "representative_titles": [
+        "Ask about Continuous Integration"
+      ],
+      "required_out_of_pocket_usd": 0.0,
+      "status": "NEEDS_MORE_EVIDENCE"
+    },
+    {
+      "candidate_key": "woocommerce-automation_workflow",
+      "evidence_count": 1,
+      "evidence_signal_keys": [
+        "woocommerce/woocommerce#67901"
+      ],
+      "evidence_urls": [
+        "https://github.com/woocommerce/woocommerce/issues/67901"
+      ],
+      "friction_family": "automation_workflow",
+      "owner_customer_recruitment_required": false,
+      "platform": "WooCommerce",
+      "representative_titles": [
+        "Variation bulk action races with unsaved variation save and can silently overwrite bulk changes"
+      ],
+      "required_out_of_pocket_usd": 0.0,
+      "status": "NEEDS_MORE_EVIDENCE"
+    },
+    {
+      "candidate_key": "woocommerce-data_reporting_export",
+      "evidence_count": 1,
+      "evidence_signal_keys": [
+        "woocommerce/woocommerce#67472"
+      ],
+      "evidence_urls": [
+        "https://github.com/woocommerce/woocommerce/issues/67472"
+      ],
+      "friction_family": "data_reporting_export",
+      "owner_customer_recruitment_required": false,
+      "platform": "WooCommerce",
+      "representative_titles": [
+        "[AI Regression Review][trunk] The public `woocommerce_csv_exporter_fopen_mode` filter default was changed from `'a+'` to `'a'`, altering the value every out-of-tree callb"
+      ],
+      "required_out_of_pocket_usd": 0.0,
+      "status": "NEEDS_MORE_EVIDENCE"
+    },
+    {
+      "candidate_key": "woocommerce-extensibility_gap",
+      "evidence_count": 5,
+      "evidence_signal_keys": [
+        "woocommerce/woocommerce#67534",
+        "woocommerce/woocommerce#67840",
+        "woocommerce/woocommerce#68441",
+        "woocommerce/woocommerce#68797",
+        "woocommerce/woocommerce#68994"
+      ],
+      "evidence_urls": [
+        "https://github.com/woocommerce/woocommerce/issues/67534",
+        "https://github.com/woocommerce/woocommerce/issues/67840",
+        "https://github.com/woocommerce/woocommerce/issues/68441",
+        "https://github.com/woocommerce/woocommerce/issues/68797",
+        "https://github.com/woocommerce/woocommerce/issues/68994"
+      ],
+      "friction_family": "extensibility_gap",
+      "owner_customer_recruitment_required": false,
+      "platform": "WooCommerce",
+      "representative_titles": [
+        "Add front matter so the Blocks hook docs render on developer.woocommerce.com",
+        "[Enhancement]: Emit a documented DOM event when the product in context changes in Add to Cart + Options",
+        "Product Specifications block has no filter for its rows or values, so block themes silently lose what `woocommerce_display_product_attributes` adds",
+        "[Enhancement]: Core Captcha API for form protection and asset management",
+        "[AI Regression Review][trunk] Dedupe guard infers registration state from hook ordering (doing_action('rest_api_init') && did_action('admin_init')) rather than a direct i"
+      ],
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_RESEARCH"
+    },
+    {
+      "candidate_key": "woocommerce-extension_compatibility",
+      "evidence_count": 6,
+      "evidence_signal_keys": [
+        "woocommerce/woocommerce#67318",
+        "woocommerce/woocommerce#67319",
+        "woocommerce/woocommerce#67447",
+        "woocommerce/woocommerce#67487",
+        "woocommerce/woocommerce#69112",
+        "woocommerce/woocommerce#69133"
+      ],
+      "evidence_urls": [
+        "https://github.com/woocommerce/woocommerce/issues/67318",
+        "https://github.com/woocommerce/woocommerce/issues/67319",
+        "https://github.com/woocommerce/woocommerce/issues/67447",
+        "https://github.com/woocommerce/woocommerce/issues/67487",
+        "https://github.com/woocommerce/woocommerce/issues/69112",
+        "https://github.com/woocommerce/woocommerce/issues/69133"
+      ],
+      "friction_family": "extension_compatibility",
+      "owner_customer_recruitment_required": false,
+      "platform": "WooCommerce",
+      "representative_titles": [
+        "Cart/Checkout blocks: a script that reads `wc.blocksCheckout` (or sibling globals) without declaring the dependency crashes the entire block, not just its own feature - recurring across independent extensions",
+        "HPOS + Sync: _schedule_next_payment rows accumulate as duplicates on renewal (1,581 subscriptions, up to 122 rows each), breaking Subscriptions list sort by Next Payment",
+        "[AI Regression Review][trunk] Adding a 'date_paid' default changes the public wc_admin settings REST endpoint's reported value for woocommerce_date_type from '' to 'date_",
+        "[AI Regression Review][release/11.0] Single-dismissible-notice branch now sanitizes to the DEFAULT_ALLOWED_TAGS allowlist, silently stripping benign non-allowlisted markup that",
+        "Make product editor and review reply E2E selectors tolerate extensions"
+      ],
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_RESEARCH"
+    },
+    {
+      "candidate_key": "woocommerce-other_friction",
+      "evidence_count": 6,
+      "evidence_signal_keys": [
+        "woocommerce/woocommerce#67499",
+        "woocommerce/woocommerce#67667",
+        "woocommerce/woocommerce#67758",
+        "woocommerce/woocommerce#67847",
+        "woocommerce/woocommerce#68123",
+        "woocommerce/woocommerce#68168"
+      ],
+      "evidence_urls": [
+        "https://github.com/woocommerce/woocommerce/issues/67499",
+        "https://github.com/woocommerce/woocommerce/issues/67667",
+        "https://github.com/woocommerce/woocommerce/issues/67758",
+        "https://github.com/woocommerce/woocommerce/issues/67847",
+        "https://github.com/woocommerce/woocommerce/issues/68123",
+        "https://github.com/woocommerce/woocommerce/issues/68168"
+      ],
+      "friction_family": "other_friction",
+      "owner_customer_recruitment_required": false,
+      "platform": "WooCommerce",
+      "representative_titles": [
+        "[Enhancement]: Block checkout: no way to give a core address field a different label on billing and shipping",
+        "[Documentation]: Update MCP setup instructions to use the WordPress MCP Adapter endpoint",
+        "Review postcode validation anchors to reject trailing newlines",
+        "Shop archive output truncated mid-wp_head on sites running Oxygen builder with a block theme active, since 11.0.0",
+        "SPIKE: map out order/product status counters usage in WooCommerce core"
+      ],
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_RESEARCH"
+    }
+  ]
+}
