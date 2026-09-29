@@ -6,13 +6,19 @@ import os
 from datetime import datetime, timezone
 from pathlib import Path
 
-from .github_discovery import GitHubDiscoveryStateStore, GitHubIssueDiscoverySpec, PersistentGitHubIssueDiscoveryRunner
+from .github_discovery import (
+    GitHubDiscoveryStateStore,
+    GitHubIssueDiscoverySpec,
+    PersistentGitHubIssueDiscoveryRunner,
+)
 from .http_transport import HttpTransportPolicy, SafeHttpFetcher
 from .scheduler import RecurrentDiscoveryScheduler
 from .opportunity_promotion import DeterministicOpportunityPromoter
 
+
 def _load_json(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
+
 
 def run_discovery_cycle(*, root: Path, state_dir: Path, now: datetime | None = None, fetcher=None) -> dict:
     now = now or datetime.now(timezone.utc)
@@ -28,20 +34,11 @@ def run_discovery_cycle(*, root: Path, state_dir: Path, now: datetime | None = N
         raise RuntimeError("GitHub source policy is not live-enabled")
     if fetcher is None:
         token = (os.environ.get("AVF_GITHUB_TOKEN") or "").strip()
-        auth_headers = {
-            "Authorization": f"Bearer {token}",
-            "X-GitHub-Api-Version": "2022-11-28",
-        } if token else {}
-        fetcher = SafeHttpFetcher(
-            HttpTransportPolicy(
-                allowed_hosts=["api.github.com"],
-                timeout_seconds=15,
-                max_response_bytes=2_000_000,
-                max_attempts=2,
-                backoff_seconds=0.25,
-            ),
-            extra_headers=auth_headers,
-        )
+        auth_headers = {"Authorization": f"Bearer {token}", "X-GitHub-Api-Version": "2022-11-28"} if token else {}
+        fetcher = SafeHttpFetcher(HttpTransportPolicy(
+            allowed_hosts=["api.github.com"], timeout_seconds=15, max_response_bytes=2_000_000,
+            max_attempts=2, backoff_seconds=0.25,
+        ), extra_headers=auth_headers)
     runner = PersistentGitHubIssueDiscoveryRunner(store)
     changed_rows = []
     executed = 0
@@ -62,20 +59,32 @@ def run_discovery_cycle(*, root: Path, state_dir: Path, now: datetime | None = N
         executed += 1
         observed += len(result.observed)
         for signal in result.new_or_changed:
-            changed_rows.append({"spec_id": spec.spec_id, "platform": spec.platform, "signal_key": signal.signal_key, "fingerprint": signal.fingerprint, "title": signal.title, "url": signal.url, "updated_at": signal.updated_at, "observed_at": now.isoformat()})
+            changed_rows.append({
+                "spec_id": spec.spec_id,
+                "platform": spec.platform,
+                "signal_key": signal.signal_key,
+                "fingerprint": signal.fingerprint,
+                "title": signal.title,
+                "url": signal.url,
+                "updated_at": signal.updated_at,
+                "observed_at": now.isoformat(),
+            })
+
     signal_path = state_dir / "signals.ndjson"
     existing = set()
     if signal_path.exists():
         for line in signal_path.read_text(encoding="utf-8").splitlines():
-            if line.strip():
-                row = json.loads(line)
-                existing.add((row.get("signal_key"), row.get("fingerprint")))
+            if not line.strip():
+                continue
+            row = json.loads(line)
+            existing.add((row.get("signal_key"), row.get("fingerprint")))
     new_rows = [r for r in changed_rows if (r["signal_key"], r["fingerprint"]) not in existing]
     if new_rows:
         with signal_path.open("a", encoding="utf-8") as fh:
             for row in new_rows:
                 fh.write(json.dumps(row, ensure_ascii=False, sort_keys=True) + "\n")
-    promoted = DeterministicOpportunityPromoter().write_queue(signal_path, state_dir / "opportunity_queue.json") if signal_path.exists() else []
+
+    promoted = DeterministicOpportunityPromoter().write_queue(signal_path, state_dir / "opportunity_queue.json", decisions_path=root / "data/research_decisions.v0.63.json") if signal_path.exists() else []
     receipt = {
         "run_id": now.isoformat(),
         "status": "PASS",
@@ -95,6 +104,7 @@ def run_discovery_cycle(*, root: Path, state_dir: Path, now: datetime | None = N
         receipt_path.write_text(json.dumps(receipt, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     return receipt
 
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--root", default=".")
@@ -103,6 +113,7 @@ def main(argv: list[str] | None = None) -> int:
     receipt = run_discovery_cycle(root=Path(args.root).resolve(), state_dir=Path(args.state_dir).resolve())
     print(json.dumps(receipt, sort_keys=True))
     return 0
+
 
 if __name__ == "__main__":
     raise SystemExit(main())
