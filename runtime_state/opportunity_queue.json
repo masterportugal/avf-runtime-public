@@ -476,14 +476,15 @@
     },
     {
       "candidate_key": "woocommerce-other_friction",
-      "evidence_count": 6,
+      "evidence_count": 7,
       "evidence_signal_keys": [
         "woocommerce/woocommerce#67499",
         "woocommerce/woocommerce#67667",
         "woocommerce/woocommerce#67758",
         "woocommerce/woocommerce#67847",
         "woocommerce/woocommerce#68123",
-        "woocommerce/woocommerce#68168"
+        "woocommerce/woocommerce#68168",
+        "woocommerce/woocommerce#69230"
       ],
       "evidence_urls": [
         "https://github.com/woocommerce/woocommerce/issues/67499",
@@ -491,7 +492,8 @@
         "https://github.com/woocommerce/woocommerce/issues/67758",
         "https://github.com/woocommerce/woocommerce/issues/67847",
         "https://github.com/woocommerce/woocommerce/issues/68123",
-        "https://github.com/woocommerce/woocommerce/issues/68168"
+        "https://github.com/woocommerce/woocommerce/issues/68168",
+        "https://github.com/woocommerce/woocommerce/issues/69230"
       ],
       "friction_family": "other_friction",
       "owner_customer_recruitment_required": false,
@@ -504,9 +506,9 @@
         "SPIKE: map out order/product status counters usage in WooCommerce core"
       ],
       "required_out_of_pocket_usd": 0.0,
-      "research_disposition": "NEEDS_MORE_PROBLEM_EVIDENCE",
-      "research_rationale": "Current signals are heterogeneous and do not form a coherent, repeatable product problem.",
-      "status": "SUPPRESSED_RESEARCH_DECISION"
+      "research_disposition": null,
+      "research_rationale": null,
+      "status": "READY_FOR_RESEARCH"
     }
   ]
 }
