@@ -2,6 +2,16 @@
   "format_version": 1,
   "opportunities": [
     {
+      "candidate_key": "jetbrains-plugin-idea-py-4536-support-the-sqlalchemy-object-relational-mapper",
+      "issue_id": "PY-4536",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Support the SQLAlchemy object relational mapper",
+      "updated_ms": 1790814964648
+    },
+    {
       "candidate_key": "jetbrains-plugin-idea-ijpl-197184-implement-forgejo-integration",
       "issue_id": "IJPL-197184",
       "owner_customer_recruitment_required": false,
@@ -9,7 +19,7 @@
       "required_out_of_pocket_usd": 0.0,
       "status": "READY_FOR_GAP_VALIDATION",
       "title": "Implement Forgejo integration",
-      "updated_ms": 1790481906195
+      "updated_ms": 1790757397433
     },
     {
       "candidate_key": "jetbrains-plugin-idea-dbe-16186-integration-with-sqlfluff-linter-and-auto-formatter",
@@ -130,16 +140,6 @@
       "status": "READY_FOR_GAP_VALIDATION",
       "title": "Support of ansible LSP",
       "updated_ms": 1789031598902
-    },
-    {
-      "candidate_key": "jetbrains-plugin-idea-py-4536-support-the-sqlalchemy-object-relational-mapper",
-      "issue_id": "PY-4536",
-      "owner_customer_recruitment_required": false,
-      "platform": "JetBrains Marketplace",
-      "required_out_of_pocket_usd": 0.0,
-      "status": "READY_FOR_GAP_VALIDATION",
-      "title": "Support the SQLAlchemy object relational mapper",
-      "updated_ms": 1788891370316
     },
     {
       "candidate_key": "jetbrains-plugin-idea-ijpl-158713-make-newui-grey-again-default-light-ui-is-too-bright-please-use-macos-",
