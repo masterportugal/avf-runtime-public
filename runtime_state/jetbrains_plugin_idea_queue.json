@@ -2,6 +2,26 @@
   "format_version": 1,
   "opportunities": [
     {
+      "candidate_key": "jetbrains-plugin-idea-cpp-7671-vagrant-support-for-clion",
+      "issue_id": "CPP-7671",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Vagrant support for CLion",
+      "updated_ms": 1790881267413
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-idea-135728-gui-for-pom-xml",
+      "issue_id": "IDEA-135728",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "GUI for pom.xml",
+      "updated_ms": 1790857059299
+    },
+    {
       "candidate_key": "jetbrains-plugin-idea-py-4536-support-the-sqlalchemy-object-relational-mapper",
       "issue_id": "PY-4536",
       "owner_customer_recruitment_required": false,
@@ -9,7 +29,7 @@
       "required_out_of_pocket_usd": 0.0,
       "status": "READY_FOR_GAP_VALIDATION",
       "title": "Support the SQLAlchemy object relational mapper",
-      "updated_ms": 1790814964648
+      "updated_ms": 1790856337768
     },
     {
       "candidate_key": "jetbrains-plugin-idea-ijpl-197184-implement-forgejo-integration",
@@ -340,16 +360,6 @@
       "status": "READY_FOR_GAP_VALIDATION",
       "title": "Add a way to restore old UI icons",
       "updated_ms": 1784318226798
-    },
-    {
-      "candidate_key": "jetbrains-plugin-idea-idea-135728-gui-for-pom-xml",
-      "issue_id": "IDEA-135728",
-      "owner_customer_recruitment_required": false,
-      "platform": "JetBrains Marketplace",
-      "required_out_of_pocket_usd": 0.0,
-      "status": "READY_FOR_GAP_VALIDATION",
-      "title": "GUI for pom.xml",
-      "updated_ms": 1784137569917
     },
     {
       "candidate_key": "jetbrains-plugin-idea-ijpl-201812-mac-os-notification-after-a-job-completes",

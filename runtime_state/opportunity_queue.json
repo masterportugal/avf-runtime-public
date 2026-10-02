@@ -159,7 +159,7 @@
     },
     {
       "candidate_key": "jetbrains-other_friction",
-      "evidence_count": 91,
+      "evidence_count": 92,
       "evidence_signal_keys": [
         "JetBrains/intellij-platform-gradle-plugin#2210",
         "JetBrains/intellij-platform-gradle-plugin#2218",
@@ -173,6 +173,7 @@
         "JetBrains/intellij-platform-gradle-plugin#2257",
         "JetBrains/intellij-platform-gradle-plugin#2258",
         "youtrack:CPP-49349",
+        "youtrack:CPP-7671",
         "youtrack:DBE-16186",
         "youtrack:GO-12084",
         "youtrack:GO-2954",
@@ -266,6 +267,7 @@
         "https://github.com/JetBrains/intellij-platform-gradle-plugin/issues/2257",
         "https://github.com/JetBrains/intellij-platform-gradle-plugin/issues/2258",
         "https://youtrack.jetbrains.com/issue/CPP-49349",
+        "https://youtrack.jetbrains.com/issue/CPP-7671",
         "https://youtrack.jetbrains.com/issue/DBE-16186",
         "https://youtrack.jetbrains.com/issue/GO-12084",
         "https://youtrack.jetbrains.com/issue/GO-2954",
