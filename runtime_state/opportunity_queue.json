@@ -107,13 +107,14 @@
     },
     {
       "candidate_key": "jetbrains-extension_compatibility",
-      "evidence_count": 15,
+      "evidence_count": 16,
       "evidence_signal_keys": [
         "JetBrains/intellij-platform-gradle-plugin#2244",
         "JetBrains/intellij-platform-gradle-plugin#2250",
         "JetBrains/intellij-platform-gradle-plugin#2254",
         "JetBrains/intellij-platform-gradle-plugin#2255",
         "JetBrains/intellij-platform-gradle-plugin#2256",
+        "JetBrains/intellij-platform-gradle-plugin#2261",
         "youtrack:IDEA-15540",
         "youtrack:IDEA-199681",
         "youtrack:IDEA-312383",
@@ -131,6 +132,7 @@
         "https://github.com/JetBrains/intellij-platform-gradle-plugin/issues/2254",
         "https://github.com/JetBrains/intellij-platform-gradle-plugin/issues/2255",
         "https://github.com/JetBrains/intellij-platform-gradle-plugin/issues/2256",
+        "https://github.com/JetBrains/intellij-platform-gradle-plugin/issues/2261",
         "https://youtrack.jetbrains.com/issue/IDEA-15540",
         "https://youtrack.jetbrains.com/issue/IDEA-199681",
         "https://youtrack.jetbrains.com/issue/IDEA-312383",
