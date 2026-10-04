@@ -2,6 +2,16 @@
   "format_version": 1,
   "opportunities": [
     {
+      "candidate_key": "jetbrains-plugin-idea-idea-135728-gui-for-pom-xml",
+      "issue_id": "IDEA-135728",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "GUI for pom.xml",
+      "updated_ms": 1791040209330
+    },
+    {
       "candidate_key": "jetbrains-plugin-idea-cpp-7671-vagrant-support-for-clion",
       "issue_id": "CPP-7671",
       "owner_customer_recruitment_required": false,
@@ -10,16 +20,6 @@
       "status": "READY_FOR_GAP_VALIDATION",
       "title": "Vagrant support for CLion",
       "updated_ms": 1790881267413
-    },
-    {
-      "candidate_key": "jetbrains-plugin-idea-idea-135728-gui-for-pom-xml",
-      "issue_id": "IDEA-135728",
-      "owner_customer_recruitment_required": false,
-      "platform": "JetBrains Marketplace",
-      "required_out_of_pocket_usd": 0.0,
-      "status": "READY_FOR_GAP_VALIDATION",
-      "title": "GUI for pom.xml",
-      "updated_ms": 1790857059299
     },
     {
       "candidate_key": "jetbrains-plugin-idea-py-4536-support-the-sqlalchemy-object-relational-mapper",
