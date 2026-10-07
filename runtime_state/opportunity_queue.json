@@ -452,14 +452,15 @@
     },
     {
       "candidate_key": "woocommerce-extension_compatibility",
-      "evidence_count": 6,
+      "evidence_count": 7,
       "evidence_signal_keys": [
         "woocommerce/woocommerce#67318",
         "woocommerce/woocommerce#67319",
         "woocommerce/woocommerce#67447",
         "woocommerce/woocommerce#67487",
         "woocommerce/woocommerce#69112",
-        "woocommerce/woocommerce#69133"
+        "woocommerce/woocommerce#69133",
+        "woocommerce/woocommerce#69448"
       ],
       "evidence_urls": [
         "https://github.com/woocommerce/woocommerce/issues/67318",
@@ -467,7 +468,8 @@
         "https://github.com/woocommerce/woocommerce/issues/67447",
         "https://github.com/woocommerce/woocommerce/issues/67487",
         "https://github.com/woocommerce/woocommerce/issues/69112",
-        "https://github.com/woocommerce/woocommerce/issues/69133"
+        "https://github.com/woocommerce/woocommerce/issues/69133",
+        "https://github.com/woocommerce/woocommerce/issues/69448"
       ],
       "friction_family": "extension_compatibility",
       "owner_customer_recruitment_required": false,
@@ -480,9 +482,9 @@
         "Make product editor and review reply E2E selectors tolerate extensions"
       ],
       "required_out_of_pocket_usd": 0.0,
-      "research_disposition": "BUILT_IN_KILL",
-      "research_rationale": "Woo QIT and official platform compatibility tooling already cover extension compatibility; generic checker overlaps built-in/official tooling.",
-      "status": "SUPPRESSED_RESEARCH_DECISION"
+      "research_disposition": null,
+      "research_rationale": null,
+      "status": "READY_FOR_RESEARCH"
     },
     {
       "candidate_key": "woocommerce-other_friction",
