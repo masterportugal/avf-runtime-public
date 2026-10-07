@@ -2,6 +2,26 @@
   "format_version": 1,
   "opportunities": [
     {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-63703-add-support-for-amazon-states-language-asl-files",
+      "issue_id": "IJPL-63703",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Add support for Amazon States Language (.asl files)",
+      "updated_ms": 1791290638262
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-py-4536-support-the-sqlalchemy-object-relational-mapper",
+      "issue_id": "PY-4536",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Support the SQLAlchemy object relational mapper",
+      "updated_ms": 1791289563076
+    },
+    {
       "candidate_key": "jetbrains-plugin-idea-ijpl-236925-project-view-highlight-the-current-folder",
       "issue_id": "IJPL-236925",
       "owner_customer_recruitment_required": false,
@@ -30,16 +50,6 @@
       "status": "READY_FOR_GAP_VALIDATION",
       "title": "Vagrant support for CLion",
       "updated_ms": 1790881267413
-    },
-    {
-      "candidate_key": "jetbrains-plugin-idea-py-4536-support-the-sqlalchemy-object-relational-mapper",
-      "issue_id": "PY-4536",
-      "owner_customer_recruitment_required": false,
-      "platform": "JetBrains Marketplace",
-      "required_out_of_pocket_usd": 0.0,
-      "status": "READY_FOR_GAP_VALIDATION",
-      "title": "Support the SQLAlchemy object relational mapper",
-      "updated_ms": 1790856337768
     },
     {
       "candidate_key": "jetbrains-plugin-idea-ijpl-197184-implement-forgejo-integration",
