@@ -488,12 +488,13 @@
     },
     {
       "candidate_key": "woocommerce-other_friction",
-      "evidence_count": 8,
+      "evidence_count": 9,
       "evidence_signal_keys": [
         "woocommerce/woocommerce#67499",
         "woocommerce/woocommerce#67667",
         "woocommerce/woocommerce#67758",
         "woocommerce/woocommerce#67847",
+        "woocommerce/woocommerce#67952",
         "woocommerce/woocommerce#68123",
         "woocommerce/woocommerce#68168",
         "woocommerce/woocommerce#69230",
@@ -504,6 +505,7 @@
         "https://github.com/woocommerce/woocommerce/issues/67667",
         "https://github.com/woocommerce/woocommerce/issues/67758",
         "https://github.com/woocommerce/woocommerce/issues/67847",
+        "https://github.com/woocommerce/woocommerce/issues/67952",
         "https://github.com/woocommerce/woocommerce/issues/68123",
         "https://github.com/woocommerce/woocommerce/issues/68168",
         "https://github.com/woocommerce/woocommerce/issues/69230",
