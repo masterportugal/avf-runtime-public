@@ -420,20 +420,22 @@
     },
     {
       "candidate_key": "woocommerce-extensibility_gap",
-      "evidence_count": 5,
+      "evidence_count": 6,
       "evidence_signal_keys": [
         "woocommerce/woocommerce#67534",
         "woocommerce/woocommerce#67840",
         "woocommerce/woocommerce#68441",
         "woocommerce/woocommerce#68797",
-        "woocommerce/woocommerce#68994"
+        "woocommerce/woocommerce#68994",
+        "woocommerce/woocommerce#69755"
       ],
       "evidence_urls": [
         "https://github.com/woocommerce/woocommerce/issues/67534",
         "https://github.com/woocommerce/woocommerce/issues/67840",
         "https://github.com/woocommerce/woocommerce/issues/68441",
         "https://github.com/woocommerce/woocommerce/issues/68797",
-        "https://github.com/woocommerce/woocommerce/issues/68994"
+        "https://github.com/woocommerce/woocommerce/issues/68994",
+        "https://github.com/woocommerce/woocommerce/issues/69755"
       ],
       "friction_family": "extensibility_gap",
       "owner_customer_recruitment_required": false,
@@ -446,9 +448,9 @@
         "[AI Regression Review][trunk] Dedupe guard infers registration state from hook ordering (doing_action('rest_api_init') && did_action('admin_init')) rather than a direct i"
       ],
       "required_out_of_pocket_usd": 0.0,
-      "research_disposition": "TECHNICAL_PATH_KILL",
-      "research_rationale": "Observed requests require missing core hooks, filters or events; a third-party extension cannot reliably create absent core extension points.",
-      "status": "SUPPRESSED_RESEARCH_DECISION"
+      "research_disposition": null,
+      "research_rationale": null,
+      "status": "READY_FOR_RESEARCH"
     },
     {
       "candidate_key": "woocommerce-extension_compatibility",
