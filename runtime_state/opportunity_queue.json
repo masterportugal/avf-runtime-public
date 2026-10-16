@@ -161,7 +161,7 @@
     },
     {
       "candidate_key": "jetbrains-other_friction",
-      "evidence_count": 94,
+      "evidence_count": 95,
       "evidence_signal_keys": [
         "JetBrains/intellij-platform-gradle-plugin#2210",
         "JetBrains/intellij-platform-gradle-plugin#2218",
@@ -205,6 +205,7 @@
         "youtrack:IJPL-156867",
         "youtrack:IJPL-158713",
         "youtrack:IJPL-159113",
+        "youtrack:IJPL-159313",
         "youtrack:IJPL-160306",
         "youtrack:IJPL-160949",
         "youtrack:IJPL-161923",
@@ -301,6 +302,7 @@
         "https://youtrack.jetbrains.com/issue/IJPL-156867",
         "https://youtrack.jetbrains.com/issue/IJPL-158713",
         "https://youtrack.jetbrains.com/issue/IJPL-159113",
+        "https://youtrack.jetbrains.com/issue/IJPL-159313",
         "https://youtrack.jetbrains.com/issue/IJPL-160306",
         "https://youtrack.jetbrains.com/issue/IJPL-160949",
         "https://youtrack.jetbrains.com/issue/IJPL-161923",

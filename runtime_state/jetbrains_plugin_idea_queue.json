@@ -2,6 +2,16 @@
   "format_version": 1,
   "opportunities": [
     {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-159313-manage-projects-ability-to-reorder-items",
+      "issue_id": "IJPL-159313",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Manage Projects: ability to reorder items",
+      "updated_ms": 1792133438267
+    },
+    {
       "candidate_key": "jetbrains-plugin-idea-idea-135728-gui-for-pom-xml",
       "issue_id": "IDEA-135728",
       "owner_customer_recruitment_required": false,
