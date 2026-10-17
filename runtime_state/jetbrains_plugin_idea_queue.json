@@ -2,6 +2,16 @@
   "format_version": 1,
   "opportunities": [
     {
+      "candidate_key": "jetbrains-plugin-idea-py-4536-support-the-sqlalchemy-object-relational-mapper",
+      "issue_id": "PY-4536",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Support the SQLAlchemy object relational mapper",
+      "updated_ms": 1792157922180
+    },
+    {
       "candidate_key": "jetbrains-plugin-idea-ijpl-159313-manage-projects-ability-to-reorder-items",
       "issue_id": "IJPL-159313",
       "owner_customer_recruitment_required": false,
@@ -20,16 +30,6 @@
       "status": "READY_FOR_GAP_VALIDATION",
       "title": "GUI for pom.xml",
       "updated_ms": 1791921273709
-    },
-    {
-      "candidate_key": "jetbrains-plugin-idea-py-4536-support-the-sqlalchemy-object-relational-mapper",
-      "issue_id": "PY-4536",
-      "owner_customer_recruitment_required": false,
-      "platform": "JetBrains Marketplace",
-      "required_out_of_pocket_usd": 0.0,
-      "status": "READY_FOR_GAP_VALIDATION",
-      "title": "Support the SQLAlchemy object relational mapper",
-      "updated_ms": 1791872932928
     },
     {
       "candidate_key": "jetbrains-plugin-idea-ijpl-63703-add-support-for-amazon-states-language-asl-files",
