@@ -2,6 +2,26 @@
   "format_version": 1,
   "opportunities": [
     {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-82612-gitlab-continous-integration",
+      "issue_id": "IJPL-82612",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "GitLab Continous Integration",
+      "updated_ms": 1792598060433
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-17475-actions-to-configure-highlighting-level",
+      "issue_id": "IJPL-17475",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Actions to configure highlighting level",
+      "updated_ms": 1792544367683
+    },
+    {
       "candidate_key": "jetbrains-plugin-idea-py-4536-support-the-sqlalchemy-object-relational-mapper",
       "issue_id": "PY-4536",
       "owner_customer_recruitment_required": false,
@@ -312,16 +332,6 @@
       "updated_ms": 1785418664013
     },
     {
-      "candidate_key": "jetbrains-plugin-idea-ijpl-82612-gitlab-continous-integration",
-      "issue_id": "IJPL-82612",
-      "owner_customer_recruitment_required": false,
-      "platform": "JetBrains Marketplace",
-      "required_out_of_pocket_usd": 0.0,
-      "status": "READY_FOR_GAP_VALIDATION",
-      "title": "GitLab Continous Integration",
-      "updated_ms": 1785418632528
-    },
-    {
       "candidate_key": "jetbrains-plugin-idea-go-12084-support-gofumpt-formatting-rules-on-commit",
       "issue_id": "GO-12084",
       "owner_customer_recruitment_required": false,
@@ -470,16 +480,6 @@
       "status": "READY_FOR_GAP_VALIDATION",
       "title": "Allow showing the relative path from the project root  in window header",
       "updated_ms": 1781773524887
-    },
-    {
-      "candidate_key": "jetbrains-plugin-idea-ijpl-17475-actions-to-configure-highlighting-level",
-      "issue_id": "IJPL-17475",
-      "owner_customer_recruitment_required": false,
-      "platform": "JetBrains Marketplace",
-      "required_out_of_pocket_usd": 0.0,
-      "status": "READY_FOR_GAP_VALIDATION",
-      "title": "Actions to configure highlighting level",
-      "updated_ms": 1781768160971
     },
     {
       "candidate_key": "jetbrains-plugin-idea-ijpl-8489-new-project-wizard-github-projects-as-project-templates-extension",
