@@ -9,7 +9,7 @@
       "required_out_of_pocket_usd": 0.0,
       "status": "READY_FOR_GAP_VALIDATION",
       "title": "GitLab Continous Integration",
-      "updated_ms": 1792598060433
+      "updated_ms": 1792649026580
     },
     {
       "candidate_key": "jetbrains-plugin-idea-ijpl-17475-actions-to-configure-highlighting-level",
