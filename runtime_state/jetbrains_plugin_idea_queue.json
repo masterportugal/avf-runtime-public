@@ -2,6 +2,26 @@
   "format_version": 1,
   "opportunities": [
     {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-259618-github-and-gitlab-review-no-scope-filter-for-changed-files-such-as-hid",
+      "issue_id": "IJPL-259618",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "GitHub and GitLab review: no scope filter for changed files, such as hiding tests",
+      "updated_ms": 1793031985374
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-197184-implement-forgejo-integration",
+      "issue_id": "IJPL-197184",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Implement Forgejo integration",
+      "updated_ms": 1793018738307
+    },
+    {
       "candidate_key": "jetbrains-plugin-idea-ijpl-82612-gitlab-continous-integration",
       "issue_id": "IJPL-82612",
       "owner_customer_recruitment_required": false,
@@ -80,16 +100,6 @@
       "status": "READY_FOR_GAP_VALIDATION",
       "title": "Vagrant support for CLion",
       "updated_ms": 1790881267413
-    },
-    {
-      "candidate_key": "jetbrains-plugin-idea-ijpl-197184-implement-forgejo-integration",
-      "issue_id": "IJPL-197184",
-      "owner_customer_recruitment_required": false,
-      "platform": "JetBrains Marketplace",
-      "required_out_of_pocket_usd": 0.0,
-      "status": "READY_FOR_GAP_VALIDATION",
-      "title": "Implement Forgejo integration",
-      "updated_ms": 1790757397433
     },
     {
       "candidate_key": "jetbrains-plugin-idea-dbe-16186-integration-with-sqlfluff-linter-and-auto-formatter",

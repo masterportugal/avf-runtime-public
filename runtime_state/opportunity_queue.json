@@ -87,23 +87,26 @@
     },
     {
       "candidate_key": "jetbrains-extensibility_gap",
-      "evidence_count": 1,
+      "evidence_count": 2,
       "evidence_signal_keys": [
-        "youtrack:IJPL-228176"
+        "youtrack:IJPL-228176",
+        "youtrack:IJPL-259618"
       ],
       "evidence_urls": [
-        "https://youtrack.jetbrains.com/issue/IJPL-228176"
+        "https://youtrack.jetbrains.com/issue/IJPL-228176",
+        "https://youtrack.jetbrains.com/issue/IJPL-259618"
       ],
       "friction_family": "extensibility_gap",
       "owner_customer_recruitment_required": false,
       "platform": "JetBrains",
       "representative_titles": [
-        "Add filter for modified shortcuts in Keymap settings"
+        "Add filter for modified shortcuts in Keymap settings",
+        "GitHub and GitLab review: no scope filter for changed files, such as hiding tests"
       ],
       "required_out_of_pocket_usd": 0.0,
       "research_disposition": null,
       "research_rationale": null,
-      "status": "NEEDS_MORE_EVIDENCE"
+      "status": "READY_FOR_RESEARCH"
     },
     {
       "candidate_key": "jetbrains-extension_compatibility",
