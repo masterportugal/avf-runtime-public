@@ -2,6 +2,16 @@
   "format_version": 1,
   "opportunities": [
     {
+      "candidate_key": "jetbrains-plugin-idea-idea-124520-eclipse-rcp-development-support",
+      "issue_id": "IDEA-124520",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Eclipse RCP development support",
+      "updated_ms": 1793668672746
+    },
+    {
       "candidate_key": "jetbrains-plugin-idea-ijpl-259618-github-and-gitlab-review-no-scope-filter-for-changed-files-such-as-hid",
       "issue_id": "IJPL-259618",
       "owner_customer_recruitment_required": false,
@@ -190,16 +200,6 @@
       "status": "READY_FOR_GAP_VALIDATION",
       "title": "Support for quicktemplate files",
       "updated_ms": 1789991961020
-    },
-    {
-      "candidate_key": "jetbrains-plugin-idea-idea-124520-eclipse-rcp-development-support",
-      "issue_id": "IDEA-124520",
-      "owner_customer_recruitment_required": false,
-      "platform": "JetBrains Marketplace",
-      "required_out_of_pocket_usd": 0.0,
-      "status": "READY_FOR_GAP_VALIDATION",
-      "title": "Eclipse RCP development support",
-      "updated_ms": 1789555447624
     },
     {
       "candidate_key": "jetbrains-plugin-idea-ijpl-11588-support-direnv",
