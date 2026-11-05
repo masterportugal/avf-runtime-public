@@ -2,6 +2,16 @@
   "format_version": 1,
   "opportunities": [
     {
+      "candidate_key": "jetbrains-plugin-idea-py-4536-support-the-sqlalchemy-object-relational-mapper",
+      "issue_id": "PY-4536",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Support the SQLAlchemy object relational mapper",
+      "updated_ms": 1793870345951
+    },
+    {
       "candidate_key": "jetbrains-plugin-idea-ijpl-259618-github-and-gitlab-review-no-scope-filter-for-changed-files-such-as-hid",
       "issue_id": "IJPL-259618",
       "owner_customer_recruitment_required": false,
@@ -10,16 +20,6 @@
       "status": "READY_FOR_GAP_VALIDATION",
       "title": "GitHub and GitLab review: no scope filter for changed files, such as hiding tests",
       "updated_ms": 1793806135548
-    },
-    {
-      "candidate_key": "jetbrains-plugin-idea-py-4536-support-the-sqlalchemy-object-relational-mapper",
-      "issue_id": "PY-4536",
-      "owner_customer_recruitment_required": false,
-      "platform": "JetBrains Marketplace",
-      "required_out_of_pocket_usd": 0.0,
-      "status": "READY_FOR_GAP_VALIDATION",
-      "title": "Support the SQLAlchemy object relational mapper",
-      "updated_ms": 1793767703504
     },
     {
       "candidate_key": "jetbrains-plugin-idea-idea-124520-eclipse-rcp-development-support",
