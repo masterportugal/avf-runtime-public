@@ -14,7 +14,7 @@
   "owner_out_of_pocket_usd": 0,
   "promoted_opportunities": 11,
   "ready_for_research": 9,
-  "run_id": "2026-11-07T08:32:57.628596+00:00",
+  "run_id": "2026-11-07T15:04:16.992792+00:00",
   "signals_path": "runtime_state/signals.ndjson",
   "state_path": "runtime_state/github_discovery_state.json",
   "status": "PASS"
