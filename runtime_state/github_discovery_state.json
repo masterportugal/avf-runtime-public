@@ -3,7 +3,7 @@
   "states": [
     {
       "last_fingerprints": {},
-      "last_run_at": "2026-11-10T23:42:29.759061+00:00",
+      "last_run_at": "2026-11-11T03:03:56.798597+00:00",
       "seen_signal_keys": [],
       "spec_id": "atlassian-fsrt-friction-v1"
     },
@@ -34,7 +34,7 @@
         "JetBrains/intellij-platform-gradle-plugin#2283": "a5b860c089aa6487c356b68109167e69a05722297dd43db39b9af1bc9b4ed28f",
         "JetBrains/intellij-platform-gradle-plugin#2287": "c9efc852c2b6d1cde8ceb4e59d37ff25cae22ecdb6bc8777c5055eb174fb1ba1"
       },
-      "last_run_at": "2026-11-10T23:42:29.759061+00:00",
+      "last_run_at": "2026-11-11T03:03:56.798597+00:00",
       "seen_signal_keys": [
         "JetBrains/intellij-platform-gradle-plugin#2199",
         "JetBrains/intellij-platform-gradle-plugin#2210",
@@ -68,7 +68,7 @@
         "JetBrains/intellij-platform-plugin-template#599": "02c417d6f3c6959136affa8f6e4f5e4afad8dde720e89efdc43bfc135b960517",
         "JetBrains/intellij-platform-plugin-template#600": "c2a633a50dd3ff10caa05e807fadf8cda763fd61ddcd07a7909a32e962f64285"
       },
-      "last_run_at": "2026-11-10T23:42:29.759061+00:00",
+      "last_run_at": "2026-11-11T03:03:56.798597+00:00",
       "seen_signal_keys": [
         "JetBrains/intellij-platform-plugin-template#599",
         "JetBrains/intellij-platform-plugin-template#600"
@@ -77,7 +77,7 @@
     },
     {
       "last_fingerprints": {},
-      "last_run_at": "2026-11-10T23:42:29.759061+00:00",
+      "last_run_at": "2026-11-11T03:03:56.798597+00:00",
       "seen_signal_keys": [],
       "spec_id": "jetbrains-plugin-verifier-friction-v1"
     },
@@ -90,7 +90,7 @@
         "woocommerce/woocommerce#68994": "3c058189dc97908c5c1acda473dcab6ce286192d2bdf0e97e61691f162381d58",
         "woocommerce/woocommerce#69448": "762b70febf3ea6885c7223629defa68feede4a5d51bb28b64d5a290331b1cd79"
       },
-      "last_run_at": "2026-11-10T23:42:29.759061+00:00",
+      "last_run_at": "2026-11-11T03:03:56.798597+00:00",
       "seen_signal_keys": [
         "woocommerce/woocommerce#67840",
         "woocommerce/woocommerce#68123",
@@ -140,7 +140,7 @@
         "woocommerce/woocommerce#70556": "4295499bc1915f2b7e6cee7864c5c4863882581218f7a7350ea5bf020bc5f8c6",
         "woocommerce/woocommerce#70789": "cf84e485c595506ce6096072c868cb6dd2efb4ad0c6d434857cf7f7d8640f606"
       },
-      "last_run_at": "2026-11-10T23:42:29.759061+00:00",
+      "last_run_at": "2026-11-11T03:03:56.798597+00:00",
       "seen_signal_keys": [
         "woocommerce/woocommerce#67318",
         "woocommerce/woocommerce#67319",
