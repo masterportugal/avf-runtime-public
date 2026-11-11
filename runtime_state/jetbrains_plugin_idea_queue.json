@@ -2,6 +2,26 @@
   "format_version": 1,
   "opportunities": [
     {
+      "candidate_key": "jetbrains-plugin-idea-cpp-49349-clion-support-to-lua",
+      "issue_id": "CPP-49349",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "CLion Support to Lua",
+      "updated_ms": 1794351827635
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-97563-add-linear-app-as-a-task-server-in-idea",
+      "issue_id": "IJPL-97563",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Add Linear.app as a task server in IDEA",
+      "updated_ms": 1794311179353
+    },
+    {
       "candidate_key": "jetbrains-plugin-idea-py-4536-support-the-sqlalchemy-object-relational-mapper",
       "issue_id": "PY-4536",
       "owner_customer_recruitment_required": false,
@@ -140,16 +160,6 @@
       "status": "READY_FOR_GAP_VALIDATION",
       "title": "Add option to assign keyboard shortcut to Run/Debug configurations",
       "updated_ms": 1790110660164
-    },
-    {
-      "candidate_key": "jetbrains-plugin-idea-cpp-49349-clion-support-to-lua",
-      "issue_id": "CPP-49349",
-      "owner_customer_recruitment_required": false,
-      "platform": "JetBrains Marketplace",
-      "required_out_of_pocket_usd": 0.0,
-      "status": "READY_FOR_GAP_VALIDATION",
-      "title": "CLion Support to Lua",
-      "updated_ms": 1790038320162
     },
     {
       "candidate_key": "jetbrains-plugin-idea-go-9136-improve-navigation-for-function-types-so-they-behave-similar-to-interf",
@@ -310,16 +320,6 @@
       "status": "READY_FOR_GAP_VALIDATION",
       "title": "LDAP Browser",
       "updated_ms": 1786654560500
-    },
-    {
-      "candidate_key": "jetbrains-plugin-idea-ijpl-97563-add-linear-app-as-a-task-server-in-idea",
-      "issue_id": "IJPL-97563",
-      "owner_customer_recruitment_required": false,
-      "platform": "JetBrains Marketplace",
-      "required_out_of_pocket_usd": 0.0,
-      "status": "READY_FOR_GAP_VALIDATION",
-      "title": "Add Linear.app as a task server in IDEA",
-      "updated_ms": 1786088829842
     },
     {
       "candidate_key": "jetbrains-plugin-idea-ijpl-160949-gutter-lines-indicating-folding-unfolding-code",
