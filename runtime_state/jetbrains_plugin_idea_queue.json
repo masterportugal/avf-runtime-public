@@ -2,6 +2,16 @@
   "format_version": 1,
   "opportunities": [
     {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-28727-ansi-color-and-formatting-support-for-log-files",
+      "issue_id": "IJPL-28727",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "ANSI Color and formatting support for .log files",
+      "updated_ms": 1794592867105
+    },
+    {
       "candidate_key": "jetbrains-plugin-idea-cpp-49349-clion-support-to-lua",
       "issue_id": "CPP-49349",
       "owner_customer_recruitment_required": false,
@@ -9,7 +19,7 @@
       "required_out_of_pocket_usd": 0.0,
       "status": "READY_FOR_GAP_VALIDATION",
       "title": "CLion Support to Lua",
-      "updated_ms": 1794351827635
+      "updated_ms": 1794536602201
     },
     {
       "candidate_key": "jetbrains-plugin-idea-ijpl-97563-add-linear-app-as-a-task-server-in-idea",
@@ -300,16 +310,6 @@
       "status": "READY_FOR_GAP_VALIDATION",
       "title": "GitLab Workflow",
       "updated_ms": 1787893755939
-    },
-    {
-      "candidate_key": "jetbrains-plugin-idea-ijpl-28727-ansi-color-and-formatting-support-for-log-files",
-      "issue_id": "IJPL-28727",
-      "owner_customer_recruitment_required": false,
-      "platform": "JetBrains Marketplace",
-      "required_out_of_pocket_usd": 0.0,
-      "status": "READY_FOR_GAP_VALIDATION",
-      "title": "ANSI Color and formatting support for .log files",
-      "updated_ms": 1787184686141
     },
     {
       "candidate_key": "jetbrains-plugin-idea-idea-357037-ldap-browser",
