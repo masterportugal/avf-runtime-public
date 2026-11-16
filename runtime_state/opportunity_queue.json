@@ -438,14 +438,15 @@
     },
     {
       "candidate_key": "woocommerce-extensibility_gap",
-      "evidence_count": 6,
+      "evidence_count": 7,
       "evidence_signal_keys": [
         "woocommerce/woocommerce#67534",
         "woocommerce/woocommerce#67840",
         "woocommerce/woocommerce#68441",
         "woocommerce/woocommerce#68797",
         "woocommerce/woocommerce#68994",
-        "woocommerce/woocommerce#69755"
+        "woocommerce/woocommerce#69755",
+        "woocommerce/woocommerce#70993"
       ],
       "evidence_urls": [
         "https://github.com/woocommerce/woocommerce/issues/67534",
@@ -453,7 +454,8 @@
         "https://github.com/woocommerce/woocommerce/issues/68441",
         "https://github.com/woocommerce/woocommerce/issues/68797",
         "https://github.com/woocommerce/woocommerce/issues/68994",
-        "https://github.com/woocommerce/woocommerce/issues/69755"
+        "https://github.com/woocommerce/woocommerce/issues/69755",
+        "https://github.com/woocommerce/woocommerce/issues/70993"
       ],
       "friction_family": "extensibility_gap",
       "owner_customer_recruitment_required": false,
