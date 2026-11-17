@@ -2,6 +2,16 @@
   "format_version": 1,
   "opportunities": [
     {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-159617-codeql",
+      "issue_id": "IJPL-159617",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "CodeQL",
+      "updated_ms": 1794844454322
+    },
+    {
       "candidate_key": "jetbrains-plugin-idea-ijpl-28727-ansi-color-and-formatting-support-for-log-files",
       "issue_id": "IJPL-28727",
       "owner_customer_recruitment_required": false,
