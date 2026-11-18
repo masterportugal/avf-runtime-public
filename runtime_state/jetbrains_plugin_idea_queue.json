@@ -2,6 +2,16 @@
   "format_version": 1,
   "opportunities": [
     {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-31062-code-folding-fold-custom-code-blocks-by-keyword-or-regex",
+      "issue_id": "IJPL-31062",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Code folding: Fold custom code blocks by keyword or regex",
+      "updated_ms": 1794948470392
+    },
+    {
       "candidate_key": "jetbrains-plugin-idea-ijpl-159617-codeql",
       "issue_id": "IJPL-159617",
       "owner_customer_recruitment_required": false,
