@@ -2,6 +2,16 @@
   "format_version": 1,
   "opportunities": [
     {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-150186-http-client-support-export-of-files-and-directories-to-postman-collect",
+      "issue_id": "IJPL-150186",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "HTTP Client: support export of files and directories to Postman collection format",
+      "updated_ms": 1795084229639
+    },
+    {
       "candidate_key": "jetbrains-plugin-idea-ijpl-31062-code-folding-fold-custom-code-blocks-by-keyword-or-regex",
       "issue_id": "IJPL-31062",
       "owner_customer_recruitment_required": false,
@@ -280,16 +290,6 @@
       "status": "READY_FOR_GAP_VALIDATION",
       "title": "Markdown: Add a WYSIWYG editor like Typora",
       "updated_ms": 1788391123469
-    },
-    {
-      "candidate_key": "jetbrains-plugin-idea-ijpl-150186-http-client-support-export-of-files-and-directories-to-postman-collect",
-      "issue_id": "IJPL-150186",
-      "owner_customer_recruitment_required": false,
-      "platform": "JetBrains Marketplace",
-      "required_out_of_pocket_usd": 0.0,
-      "status": "READY_FOR_GAP_VALIDATION",
-      "title": "HTTP Client: support export of files and directories to Postman collection format",
-      "updated_ms": 1788340789034
     },
     {
       "candidate_key": "jetbrains-plugin-idea-tw-84799-build-blocker",
