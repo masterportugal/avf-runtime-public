@@ -2,6 +2,26 @@
   "format_version": 1,
   "opportunities": [
     {
+      "candidate_key": "jetbrains-plugin-idea-cpp-49349-clion-support-to-lua",
+      "issue_id": "CPP-49349",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "CLion Support to Lua",
+      "updated_ms": 1795432311406
+    },
+    {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-158713-make-newui-grey-again-default-light-ui-is-too-bright-please-use-macos-",
+      "issue_id": "IJPL-158713",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Make NewUI Grey Again (default light UI is too bright! Please use macOS greys!)",
+      "updated_ms": 1795420603165
+    },
+    {
       "candidate_key": "jetbrains-plugin-idea-ijpl-160306-typespec-support",
       "issue_id": "IJPL-160306",
       "owner_customer_recruitment_required": false,
@@ -60,16 +80,6 @@
       "status": "READY_FOR_GAP_VALIDATION",
       "title": "ANSI Color and formatting support for .log files",
       "updated_ms": 1794592867105
-    },
-    {
-      "candidate_key": "jetbrains-plugin-idea-cpp-49349-clion-support-to-lua",
-      "issue_id": "CPP-49349",
-      "owner_customer_recruitment_required": false,
-      "platform": "JetBrains Marketplace",
-      "required_out_of_pocket_usd": 0.0,
-      "status": "READY_FOR_GAP_VALIDATION",
-      "title": "CLion Support to Lua",
-      "updated_ms": 1794536602201
     },
     {
       "candidate_key": "jetbrains-plugin-idea-ijpl-97563-add-linear-app-as-a-task-server-in-idea",
@@ -280,16 +290,6 @@
       "status": "READY_FOR_GAP_VALIDATION",
       "title": "Support of ansible LSP",
       "updated_ms": 1789031598902
-    },
-    {
-      "candidate_key": "jetbrains-plugin-idea-ijpl-158713-make-newui-grey-again-default-light-ui-is-too-bright-please-use-macos-",
-      "issue_id": "IJPL-158713",
-      "owner_customer_recruitment_required": false,
-      "platform": "JetBrains Marketplace",
-      "required_out_of_pocket_usd": 0.0,
-      "status": "READY_FOR_GAP_VALIDATION",
-      "title": "Make NewUI Grey Again (default light UI is too bright! Please use macOS greys!)",
-      "updated_ms": 1788806165171
     },
     {
       "candidate_key": "jetbrains-plugin-idea-idea-270624-markdown-add-a-wysiwyg-editor-like-typora",
