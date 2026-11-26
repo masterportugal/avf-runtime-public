@@ -2,6 +2,16 @@
   "format_version": 1,
   "opportunities": [
     {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-197184-implement-forgejo-integration",
+      "issue_id": "IJPL-197184",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Implement Forgejo integration",
+      "updated_ms": 1795607703374
+    },
+    {
       "candidate_key": "jetbrains-plugin-idea-cpp-49349-clion-support-to-lua",
       "issue_id": "CPP-49349",
       "owner_customer_recruitment_required": false,
@@ -110,16 +120,6 @@
       "status": "READY_FOR_GAP_VALIDATION",
       "title": "GitHub and GitLab review: no scope filter for changed files, such as hiding tests",
       "updated_ms": 1793806135548
-    },
-    {
-      "candidate_key": "jetbrains-plugin-idea-ijpl-197184-implement-forgejo-integration",
-      "issue_id": "IJPL-197184",
-      "owner_customer_recruitment_required": false,
-      "platform": "JetBrains Marketplace",
-      "required_out_of_pocket_usd": 0.0,
-      "status": "READY_FOR_GAP_VALIDATION",
-      "title": "Implement Forgejo integration",
-      "updated_ms": 1793018738307
     },
     {
       "candidate_key": "jetbrains-plugin-idea-ijpl-82612-gitlab-continous-integration",
