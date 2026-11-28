@@ -2,6 +2,16 @@
   "format_version": 1,
   "opportunities": [
     {
+      "candidate_key": "jetbrains-plugin-idea-ijpl-263325-search-everywhere-classes-tab-internal-class-names-such-as-java-lang-s",
+      "issue_id": "IJPL-263325",
+      "owner_customer_recruitment_required": false,
+      "platform": "JetBrains Marketplace",
+      "required_out_of_pocket_usd": 0.0,
+      "status": "READY_FOR_GAP_VALIDATION",
+      "title": "Search Everywhere Classes tab: internal class names such as java/lang/String find nothing",
+      "updated_ms": 1795804935405
+    },
+    {
       "candidate_key": "jetbrains-plugin-idea-ijpl-197184-implement-forgejo-integration",
       "issue_id": "IJPL-197184",
       "owner_customer_recruitment_required": false,
